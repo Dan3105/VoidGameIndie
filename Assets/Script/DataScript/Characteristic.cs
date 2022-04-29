@@ -10,9 +10,6 @@ public class Characteristic : MonoBehaviour
     public Collider2D col;
     [Header("Character Parameters")]
     public CharacterStats stats;
-    //CharacterStats stats;
-    public float range;
-
 
     public float AutoDetect(Collider2D character)
     {

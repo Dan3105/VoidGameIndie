@@ -25,17 +25,19 @@ public class BladeScript : SkillWeapon
         for(int i = 0; i < collider2Ds.Length; i++)
         {
             // enemy take damamage;
+            collider2Ds[i].gameObject.GetComponent<Characteristic>().TakeDmg();
             Debug.Log("Hello");
         }
     }
 
+    
     private void OnDrawGizmos()
     {
         //range Detecting
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, stats.rangeDetect);
         //range attack
-        Gizmos.color = Color.red;
+        Gizmos.color = Color.blue;
         Gizmos.DrawWireCube(transform.position, size);
     }
 }

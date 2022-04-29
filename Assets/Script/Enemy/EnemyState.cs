@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class EnemyState : Characteristic
 {
-    //Scriptable enemy
-    public float hp = 100;
-    public void AttackRange(GameObject enemy)
+    //performe skill
+    public virtual void AttackRange(Transform player)
     {
 
     }
 
-    public void AttackMelee(GameObject enemy)
+    public virtual void AttackMelee(Transform player)
     { 
     
     }

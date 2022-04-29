@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
 
 public class CharacterController : Characteristic
 {
@@ -16,14 +15,13 @@ public class CharacterController : Characteristic
 
     [Header("Slot Weapon")]
     public SkillWeapon slot1;
-    //public SkillWeapon slot2;
+    public SkillWeapon slot2;
+    
 
     private void Start()
     {
-        //gameObject.GetComponentInChildren<SkillWeapon>();
-        Transform looper1 = gameObject.transform.Find("SlotWeapon1");
-        slot1 = looper1.transform.Find("weapon").GetComponent<SkillWeapon>();    
-
+        slot1.gameObject.SetActive(true);
+        slot1.gameObject.SetActive(false);
     }
 
     private void FixedUpdate()

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEditor;
 public class SkillWeapon : MonoBehaviour
 {
     //scriptable weapon
@@ -10,6 +10,7 @@ public class SkillWeapon : MonoBehaviour
     //
     protected GameObject slotFather;
     public LayerMask whoWasAttacked;
+
     protected Vector2 dir;
     private float cdCall;
     protected virtual void Start()

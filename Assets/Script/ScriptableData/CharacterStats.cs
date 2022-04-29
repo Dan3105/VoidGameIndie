@@ -13,4 +13,5 @@ public class CharacterStats : ScriptableObject
 
     public bool isMelee;
     
+    
 }
