@@ -7,6 +7,13 @@ public class WeaponStats : ScriptableObject {
     public float dmgAtk;
     public float cdAtk;
     public float rangeDetect;
-    
-    //sprite/sound
+
+    public float currentDmg;
+    public float currentCD;
+
+    public void UpdateStats(int level)
+    {
+        currentDmg = dmgAtk * 1.5f * level;
+        currentCD = cdAtk - 0.015f * level;
+    }
 }

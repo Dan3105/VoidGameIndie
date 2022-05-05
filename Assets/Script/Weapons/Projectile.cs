@@ -6,16 +6,23 @@ public class Projectile : MonoBehaviour
 {
     public WeaponStats stats;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == this.tag && this.tag == "Enemy")
+        if (collision.gameObject.tag == this.tag && collision.gameObject.tag == "Enemy")
         {
+
+            collision.gameObject.GetComponent<AIEnemy>().TakeDmg(stats.dmgAtk);
             
-            collision.gameObject.GetComponent<EnemyState>().TakeDmg();
             Destroy(this.gameObject);
         }
-            
-        else if (collision.gameObject.tag == "Boundary")
+        else if (collision.gameObject.tag == this.tag && collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<CharacterController>().TakeDmg(stats.dmgAtk);
             Destroy(this.gameObject);
+        }
+        else if(collision.gameObject.tag == "Boundary")
+            Destroy(this.gameObject);
+            
     }
+
 }

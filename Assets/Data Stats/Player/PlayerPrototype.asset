@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4217b45bee39c7544ae804932d7bb5ca, type: 3}
   m_Name: PlayerPrototype
   m_EditorClassIdentifier: 
-  hp: 100
+  hp: Infinity
   speed: 10
-  rangeDetect: 6
-  cdAttack: 0.5
   isMelee: 1
+  exp: -Infinity

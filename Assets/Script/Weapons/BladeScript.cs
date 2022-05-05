@@ -17,7 +17,8 @@ public class BladeScript : SkillWeapon
     public override void DetectRange()
     {
         base.DetectRange();
-    }
+
+    }        
 
     public override void Attacking()
     {
@@ -25,8 +26,8 @@ public class BladeScript : SkillWeapon
         for(int i = 0; i < collider2Ds.Length; i++)
         {
             // enemy take damamage;
-            collider2Ds[i].gameObject.GetComponent<Characteristic>().TakeDmg();
-            Debug.Log("Hello");
+            collider2Ds[i].gameObject.GetComponent<Characteristic>().TakeDmg(stats.dmgAtk);
+            Debug.Log(collider2Ds[i].name + "Take dmg");
         }
     }
 

@@ -10,7 +10,6 @@ public class GunScript : SkillWeapon
     {
         base.Start();
         projectile.GetComponent<Projectile>().stats = stats;
-        
     }
 
     public override void DetectRange()
@@ -20,14 +19,15 @@ public class GunScript : SkillWeapon
 
     public override void Attacking()
     {
+        Debug.Log(this.transform.parent.parent.name + "attack");
         GameObject pj = Instantiate(projectile, transform.position, transform.rotation);
         
         int tagName = (int)Mathf.Log(whoWasAttacked, 2);
-        Debug.Log(tagName);
+        
         pj.tag = LayerMask.LayerToName(tagName);
-      
+        pj.GetComponent<Projectile>().stats = stats;
         pj.GetComponent<Rigidbody2D>().AddForce(dir * 15, ForceMode2D.Impulse);
-       // Debug.Log("shooot");
+
     }
 
     private void OnDrawGizmos()

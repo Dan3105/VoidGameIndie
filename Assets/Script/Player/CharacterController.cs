@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class CharacterController : Characteristic
 {
-    
+    #region singleton
+    private static CharacterController instance;
+    public static CharacterController Instance { get; private set; }
+    #endregion
+
     public JoystickController joystickController;
     [Header("Dashing component")]
     public float dashForce;
@@ -15,41 +19,56 @@ public class CharacterController : Characteristic
 
     [Header("Slot Weapon")]
     public SkillWeapon slot1;
-    public SkillWeapon slot2;
-    
-
-    private void Start()
+    #region singleton
+    private void Awake()
     {
-        slot1.gameObject.SetActive(true);
-        slot1.gameObject.SetActive(false);
-    }
-
-    private void FixedUpdate()
-    {
-        if(joystickController.isDash)
+        if (Instance == null)
         {
-            //rg2d.AddForce(dashForce * joystickController.joystickDir, ForceMode2D.Impulse);
-            rg2d.velocity = dashForce * joystickController.joystickDir;
-            joystickController.dashTime -= Time.deltaTime;
-            col.enabled = false;
-            if(joystickController.dashTime <= 0)
-            {
-                joystickController.isDash = false;
-                joystickController.joystickDir = Vector2.zero;
-                rg2d.velocity = Vector2.zero;
-
-                col.enabled = true;
-            }
-
+            Instance = this as CharacterController;
         }
         else
+            Destroy(gameObject);
+    }
+    #endregion
+    override protected void Start()
+    {
+        base.Start();
+        slot1.gameObject.SetActive(true);
+        
+    }
+    private void Update()
+    {
+        slot1.cdCall -= Time.deltaTime;
+    }
+    private void FixedUpdate()
+    {
+        
+        if (isAlive)
         {
-            rg2d.velocity = joystickController.joystickDir * stats.speed;
-        }
+            if (joystickController.isDash)
+            {
+                //rg2d.AddForce(dashForce * joystickController.joystickDir, ForceMode2D.Impulse);
+                rg2d.velocity = dashForce * joystickController.joystickDir;
+                joystickController.dashTime -= Time.deltaTime;
+                col.enabled = false;
+                if (joystickController.dashTime <= 0)
+                {
+                    joystickController.isDash = false;
+                    joystickController.joystickDir = Vector2.zero;
+                    rg2d.velocity = Vector2.zero;
 
-        slot1.DetectRange();
+                    col.enabled = true;
+                }
+
+            }
+            else
+                rg2d.velocity = joystickController.joystickDir * stats.speed;
+
+            slot1.DetectRange();
+        }
+        
 
     }
 
-    
+  
 }

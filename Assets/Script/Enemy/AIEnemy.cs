@@ -2,46 +2,49 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
-public class AIEnemy : MonoBehaviour
+public class AIEnemy : Characteristic
 {
     //AI working
     public AIPath aiPath;
     public AIDestinationSetter destinationSetter;
-    
+
     //State Attack - Enemy Stats
-    public EnemyState enemyState;
+    public Transform slotWeapon;
     public SkillWeapon weapon;
-    private void OnEnable()
+
+
+    protected override void Start()
     {
+        base.Start();
         //set ai parameter
         destinationSetter.target = GameObject.Find("Player").transform;
-        aiPath.maxSpeed = enemyState.stats.speed;
-        aiPath.endReachedDistance = enemyState.stats.rangeDetect;
-
-        //get weapon
-        Transform looper1 = gameObject.transform.Find("SlotWeapon");
-        if (enemyState.stats.isMelee)
-            weapon = looper1.transform.Find("Blade").GetComponent<SkillWeapon>();
+        aiPath.maxSpeed = stats.speed;
+        if(weapon.isMelee)
+            aiPath.endReachedDistance = weapon.stats.rangeDetect * 2;
         else
-            weapon = looper1.transform.Find("Gun").GetComponent<SkillWeapon>();
+            aiPath.endReachedDistance = weapon.stats.rangeDetect * 2 / 3;
+
+
+        //set stats to enemy
+        crHp = stats.hp + 2f * GameManager.Instance.currentLevel;
+
+        //Instantiate weapon
+        var temp = Instantiate(weapon, slotWeapon);
+        weapon = temp;
+
+        //update stats for weapon
+        weapon.stats.UpdateStats(GameManager.Instance.currentLevel);
+
+        //set isAlive to true
+        
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if(aiPath.reachedEndOfPath)
-        {
-            //perfome skill if have
-            //else
-            Debug.Log("Hello");
-            weapon.DetectRange();
-        }
+        //cooldown attack for weapon
+        weapon.cdCall -= Time.deltaTime;
+        weapon.DetectRange();
+
     }
 
-    
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.white;
-        Gizmos.DrawWireSphere(transform.position, enemyState.stats.rangeDetect);
-    }
 }
