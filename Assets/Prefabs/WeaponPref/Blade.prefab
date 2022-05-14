@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3350139286384635723}
   - component: {fileID: 8895249943693833911}
   - component: {fileID: 541589795019782963}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Blade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.36, y: 0.09}
+  m_Size: {x: 0.58, y: 0.09}
   m_EdgeRadius: 0
 --- !u!114 &541589795019782963
 MonoBehaviour:
@@ -129,6 +129,7 @@ MonoBehaviour:
   whoWasAttacked:
     serializedVersion: 2
     m_Bits: 64
+  dir: {x: 0, y: 0}
   cdCall: 0
-  size: {x: 0.37, y: 0.1}
+  size: {x: 7, y: 5}
   col2D: {fileID: 8895249943693833911}

@@ -14,5 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: Infinity
   speed: 10
-  isMelee: 1
+  def: 0
   exp: -Infinity
+  crHp: Infinity
+  crSpeed: 0
+  crDef: 0
+  crExp: 0
+  animator: {fileID: 9100000, guid: e5dd885828944a04ea3829604ce72199, type: 2}

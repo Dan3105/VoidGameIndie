@@ -15,5 +15,5 @@ MonoBehaviour:
   dmgAtk: 90
   cdAtk: 0.5
   rangeDetect: 9.43
-  currentDmg: 270
-  currentCD: 0.47
+  currentDmg: 135
+  currentCD: 0.485

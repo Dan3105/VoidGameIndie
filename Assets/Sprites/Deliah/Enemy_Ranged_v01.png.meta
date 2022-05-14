@@ -1,0 +1,7098 @@
+fileFormatVersion: 2
+guid: 2bb4aad7d58214643a0466e7d98466a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4131
+        width: 182
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb85405baff5bb4dbfc6a9f9e3b51e8
+      internalID: -1730943929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 4128
+        width: 219
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b456e7d818b1a549a7bd6232e9d046b
+      internalID: 155315971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_2
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 4131
+        width: 228
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dba857e552605246b45f0a1315f9c57
+      internalID: 1357378556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_3
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 4132
+        width: 236
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee29d128f0406d4eb57def4f073fa14
+      internalID: -1106063710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_4
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 4130
+        width: 240
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5051cddb1c837409a2b9b37a5112ec
+      internalID: 893787259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 4129
+        width: 243
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22acd197cebb9c54fa7af13545aae2e7
+      internalID: 1511882985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 4132
+        width: 243
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474ed0c7c6069a44486a484ad8b6f540
+      internalID: -1264878095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 4132
+        width: 244
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df563ac8efd5a94dbf39c8086241b6d
+      internalID: 1274098785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_8
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 4137
+        width: 244
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787776b7f6810dd42baf6efb29f31401
+      internalID: 1748924300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_9
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 4143
+        width: 246
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dff4e4cde13054c9f869a1b4fe7116
+      internalID: -886833445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_10
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 4146
+        width: 246
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fbcda11867c984c9fe3d8ef9ff1860
+      internalID: -883740012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_11
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 4137
+        width: 245
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e99791a0a010f4da6156cc2a5c5761
+      internalID: -333308027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_12
+      rect:
+        serializedVersion: 2
+        x: 3042
+        y: 4137
+        width: 246
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43771402ea5438f43a96481910af6fa6
+      internalID: 78480684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_13
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 4147
+        width: 248
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa1d94d67eb1ce43a146e6ef79cd4fc
+      internalID: -394595714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_14
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 4140
+        width: 246
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c86e3e62c011c4db93ba26368401fc
+      internalID: 1164155211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_15
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4135
+        width: 246
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ceefeb96a7e2a42bbbc2a2422df959
+      internalID: -470012836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_16
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 4144
+        width: 246
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca8c52c91310134da21bcafb0b75d70
+      internalID: 1272075890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_17
+      rect:
+        serializedVersion: 2
+        x: 4364
+        y: 4144
+        width: 160
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1184d161c457a4ab7abbcf4d78ef89
+      internalID: -272332598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_18
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 4134
+        width: 83
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f129282b3fea8478a58910a7aefc3b
+      internalID: 1037180735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_19
+      rect:
+        serializedVersion: 2
+        x: 4910
+        y: 4136
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b41a59be64ffe4a8dda753615763f9
+      internalID: 55533281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_20
+      rect:
+        serializedVersion: 2
+        x: 5144
+        y: 4136
+        width: 133
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aee8df82c8149c4f89638f816b79665
+      internalID: 179102472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_21
+      rect:
+        serializedVersion: 2
+        x: 5393
+        y: 4133
+        width: 145
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8462a2a85fe66428b1a9d5d3f43b9c
+      internalID: 166304639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_22
+      rect:
+        serializedVersion: 2
+        x: 5636
+        y: 4138
+        width: 172
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19338df397e85ee4d91db1d7b782f965
+      internalID: 1151609294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_23
+      rect:
+        serializedVersion: 2
+        x: 5885
+        y: 4140
+        width: 185
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57f43ed2d26f624888e9e862faeb6ac
+      internalID: 106465518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3884
+        width: 185
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce3e37ee1f9b3b40876c9be2f8eb9c5
+      internalID: -776655983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3891
+        width: 219
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e6fd2d1cf89054c8e9292f0a4ba432
+      internalID: 1266066800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_26
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 3884
+        width: 228
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffbff8bf1c70bc4a8fd7331d00011e2
+      internalID: -2126850283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_27
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 3883
+        width: 234
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002ffa1dffd4e2344b72ec7e8545a47a
+      internalID: -1790552637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_28
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 3885
+        width: 237
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8594eef69cf7649b136ac6f33a2ff7
+      internalID: 250399972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_29
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 3885
+        width: 240
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9498355242fb8db4e9e2a1767c749f29
+      internalID: -661295968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_30
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 3885
+        width: 243
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1afa0f783368e46b292ecd10412d85
+      internalID: -822309728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_31
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 3892
+        width: 243
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c97273ea403094f8556890d80b6af1
+      internalID: 186492590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_32
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 3888
+        width: 246
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768fb9fedd5adf2439a01caca7c2abbd
+      internalID: -1572400285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_33
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 3894
+        width: 246
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078aa2170fee104429fae3ecdb18edfd
+      internalID: -309915881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_34
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 3892
+        width: 247
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beeee7bd8f4d3154b9affe92b5cf98a3
+      internalID: 453961387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_35
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 3890
+        width: 246
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2461095f61eae884eaa841df55822d74
+      internalID: 1193312671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_36
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 3894
+        width: 245
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c835aeadae20e4d9a82ad7c9950548
+      internalID: 1843710709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_37
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 3894
+        width: 246
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9071db5a9ac4a4489f2a7009e188b7
+      internalID: 1897290411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_38
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 3894
+        width: 246
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf1a4345f5b48948b2a4f6b1476c23c
+      internalID: 1935560713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_39
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 3894
+        width: 246
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef60ffe7bfc69440b6ddeaa974a6f41
+      internalID: -2130806114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_40
+      rect:
+        serializedVersion: 2
+        x: 4062
+        y: 3898
+        width: 246
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1c8f3f48d6cb74fbb4cde644a3bd09
+      internalID: -640310414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_41
+      rect:
+        serializedVersion: 2
+        x: 4361
+        y: 3898
+        width: 160
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db48f3f756da945a9651629e8fd8e5
+      internalID: 127151056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_42
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 3896
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c8c8f8ab6041c4e87061ec8a4c0f51
+      internalID: 438064752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_43
+      rect:
+        serializedVersion: 2
+        x: 4910
+        y: 3894
+        width: 91
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446cb9abb54318e48ad0a2cea21895d9
+      internalID: 1669312357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_44
+      rect:
+        serializedVersion: 2
+        x: 5144
+        y: 3897
+        width: 133
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1636c0967d378c4280bd3fe9142b535
+      internalID: 2135578162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_45
+      rect:
+        serializedVersion: 2
+        x: 5396
+        y: 3898
+        width: 145
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe97ff98a6655341ba719b2fdbcf32d
+      internalID: -256337916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_46
+      rect:
+        serializedVersion: 2
+        x: 5637
+        y: 3894
+        width: 174
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f4824c8c8e7ee42bfb493bba90a485
+      internalID: -1377022456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_47
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 3894
+        width: 182
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819b04f9336f45247a0fcf7f512e6b98
+      internalID: -827510883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3606
+        width: 50
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6beb041991054e64baeeb08f1ad5c089
+      internalID: -3251919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_49
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 3621
+        width: 67
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c533f725569b729478ca68e499f1e364
+      internalID: -1369927917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_50
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 3624
+        width: 63
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8b78e215aeffe479a0fac8cd4a0ed4
+      internalID: 1178516883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_51
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 3622
+        width: 64
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2150a441336a692428973db1cec92799
+      internalID: -332540617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_52
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 3621
+        width: 63
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511c666b31911424bbf1505f3e97d74b
+      internalID: 1729381582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_53
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 3620
+        width: 65
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69504c0d62817a43bd9d74d95f88a15
+      internalID: 1781615522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_54
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 3628
+        width: 62
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7edb440e271a74a9a728350198e871
+      internalID: -952883330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_55
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 3625
+        width: 65
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6ebc647921ed14999eeacd411c7b1d
+      internalID: -1292265060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_56
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 3630
+        width: 65
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d45480e08328640ac1aad88a8da92d
+      internalID: -1268827153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_57
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 3631
+        width: 64
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ad91907f1bd34ab361c54250567a3
+      internalID: 535950389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_58
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 3631
+        width: 65
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459853d2485e39b4c9e673e3057443b6
+      internalID: 166338812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_59
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 3632
+        width: 65
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2014c5a6219ae8841a11051cf0769b0a
+      internalID: 1617899706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_60
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 3632
+        width: 65
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b240aeedf738d846899a8f1a6e5f4e4
+      internalID: -2056451292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_61
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 3632
+        width: 65
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7922d09f7f90141875fef740e7996d
+      internalID: -1624927440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_62
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 3632
+        width: 67
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4800aa7ec5f08e4898091a6331cdc76
+      internalID: -129196537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_63
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 3628
+        width: 66
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b445f4ba1bcc5fc4590eb69dff9e6b8d
+      internalID: -995642712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_64
+      rect:
+        serializedVersion: 2
+        x: 4145
+        y: 3631
+        width: 65
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e406795fd8d66e4293f6d76eac8bde8
+      internalID: -2093157941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_65
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 3639
+        width: 95
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc891aa34b23c245a0270fef1ccbd11
+      internalID: 133132526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_66
+      rect:
+        serializedVersion: 2
+        x: 4671
+        y: 3634
+        width: 159
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95f64b385752754ea00d2ef541dec62
+      internalID: 47343912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_67
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 3633
+        width: 154
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5217a6b18aae64aad16f59f860e222
+      internalID: 644272349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_68
+      rect:
+        serializedVersion: 2
+        x: 5183
+        y: 3632
+        width: 124
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d620e4a74393ce438b07a8f31919c4d
+      internalID: -189865913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_69
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3632
+        width: 80
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df788191aed7ac4393e3a772b865d81
+      internalID: -1591011153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_70
+      rect:
+        serializedVersion: 2
+        x: 5695
+        y: 3615
+        width: 52
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc7615b8cce6c74399aae59782dfee0
+      internalID: -2094618397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_71
+      rect:
+        serializedVersion: 2
+        x: 5950
+        y: 3606
+        width: 53
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3077e12292744e4c9dc89816238deb8
+      internalID: -1212471625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3348
+        width: 52
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1595ede426623747b903c3ccec29bd9
+      internalID: 1167897855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_73
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 3364
+        width: 65
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbcec509eec1b145a4d392ccfe5c12d
+      internalID: -1039169419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_74
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 3367
+        width: 62
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e24bf8abe2e9c844ba43bca047a24d4
+      internalID: -103095233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_75
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 3367
+        width: 62
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea8f9eb3804cb14bb2b61ed961b7c42
+      internalID: -1677878601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_76
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 3364
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4facfac9e81b6fd44ae5480f69e3c99a
+      internalID: 1461873432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_77
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3366
+        width: 62
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec07b8a233fca745ba8a672b5e792a7
+      internalID: 1932803821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_78
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 3361
+        width: 62
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903c632f5e8ad7b4d84908314ffb0bac
+      internalID: 2147327949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_79
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 3372
+        width: 65
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77b3687df6d6ee4dafa358ed6772a48
+      internalID: -1945967941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_80
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 3370
+        width: 64
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d48f677c55fa1440a0e8a586b6f68cc
+      internalID: -18970663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_81
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 3378
+        width: 64
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c16cd11477a7b4f95198b536ce67f5
+      internalID: 624262138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_82
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 3378
+        width: 65
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65bbd94e2f11844cbc08c5e6846da4b
+      internalID: -852994787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_83
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 3375
+        width: 64
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be53866b02f64554e97b6977c3579d20
+      internalID: -143132987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_84
+      rect:
+        serializedVersion: 2
+        x: 3140
+        y: 3375
+        width: 65
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ee7176d0d8425469b6a521c402d712
+      internalID: 528355648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_85
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 3378
+        width: 63
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420e46d645b952f42ab61419df153718
+      internalID: -404654009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_86
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 3378
+        width: 65
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f960f88b5c32e5142a3989fdf9d6331f
+      internalID: 850972755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_87
+      rect:
+        serializedVersion: 2
+        x: 3908
+        y: 3378
+        width: 65
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b5d07785886a94b91a32753f16bd8d
+      internalID: -1107822319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_88
+      rect:
+        serializedVersion: 2
+        x: 4164
+        y: 3376
+        width: 65
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9930a08d14c71459ba45a1c52c3f87
+      internalID: 403311989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_89
+      rect:
+        serializedVersion: 2
+        x: 4376
+        y: 3378
+        width: 95
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472a02a1e50972b478ef271136b423cf
+      internalID: -416670318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_90
+      rect:
+        serializedVersion: 2
+        x: 4566
+        y: 3373
+        width: 162
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1455b6e8e15688243aea8edef47494db
+      internalID: 210652619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_91
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 3372
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebff34bc8cb2ce4e9794adf500a7475
+      internalID: -1916276885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_92
+      rect:
+        serializedVersion: 2
+        x: 5114
+        y: 3373
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f037cd4db4e11f439fbfcfbbe7d819d
+      internalID: 774694739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_93
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 3373
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fad2e5322f381418ed1e407ea2a353
+      internalID: -103653286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_94
+      rect:
+        serializedVersion: 2
+        x: 5698
+        y: 3355
+        width: 53
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bfe157c234a554398f9d40283e107f
+      internalID: 1155280160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_95
+      rect:
+        serializedVersion: 2
+        x: 5956
+        y: 3348
+        width: 52
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9a43c8108325f4babbae5c6e99c0bb
+      internalID: 1017090627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_96
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3108
+        width: 137
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25829ca13170304e8125a156629dbf8
+      internalID: 2002510167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_97
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3106
+        width: 157
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8e006a32f5ec94ab4480141709219d
+      internalID: 396348989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_98
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 3107
+        width: 165
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10f3eeeb7c2b934f97af81d38668189
+      internalID: -1980874099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_99
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 3106
+        width: 169
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58f1be5281b14d44a1be6b086837b93
+      internalID: 665496312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_100
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 3104
+        width: 172
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfcb90f4b34af24daf10a61a20a6d98
+      internalID: 1223788063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_101
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 3103
+        width: 172
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba0f6bc42e287847b37abf86e92b074
+      internalID: -1142785822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_102
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 3111
+        width: 175
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c2b362050f33a4d8f74d778e1e5afe
+      internalID: -1720749088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_103
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 3106
+        width: 175
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a47a6b1b53a3074f89d17e0ef63ca2d
+      internalID: -1790570375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_104
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 3115
+        width: 177
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4580cc9ba11d58440bd1ce16fb4acf26
+      internalID: 703953729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_105
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 3115
+        width: 177
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bf7f6fe5ab3e6469381c2914b9706e
+      internalID: 1063149674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_106
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 3119
+        width: 175
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24707357227d06d4589b67f791c098f5
+      internalID: 1861479520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_107
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 3114
+        width: 178
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51879a4c957114041bc86f81133060d2
+      internalID: 954465652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_108
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 3115
+        width: 178
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60af39d783ad094408d452de714ac8a7
+      internalID: -975438479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_109
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 3120
+        width: 178
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a186e6cdf8a114bbc2d19956e7398e
+      internalID: 1889316323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_110
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 3114
+        width: 178
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af13d7aceec5354d93cc260259e9463
+      internalID: 1399434121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_111
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 3110
+        width: 178
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d373e2d40acf54dbb0caaf1a7c9ec5
+      internalID: -1823589067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_112
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 3117
+        width: 177
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd35a9155272b0419b54b9d00fff1aa
+      internalID: 512508801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_113
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3123
+        width: 145
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f1371892904654083ac9024d4b9ada
+      internalID: 599002342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_114
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 3112
+        width: 144
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f089f01d00f67b449aeb41ce477ef2d
+      internalID: 1660856448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_115
+      rect:
+        serializedVersion: 2
+        x: 4930
+        y: 3112
+        width: 140
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0229f00afabb14419c1897655546d80
+      internalID: -579244996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_116
+      rect:
+        serializedVersion: 2
+        x: 5182
+        y: 3114
+        width: 134
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64bf435e6f7f614d931012f8a4528cd
+      internalID: -805396445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_117
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 3112
+        width: 139
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fe3587b90867440848a9f7fd682846
+      internalID: -2100337020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_118
+      rect:
+        serializedVersion: 2
+        x: 5663
+        y: 3117
+        width: 130
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba868485dfa82c448ead6bc0d83042f
+      internalID: -2075762407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_119
+      rect:
+        serializedVersion: 2
+        x: 5908
+        y: 3108
+        width: 137
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a248f6dc1b41d0d49893b3bc4b88a965
+      internalID: 234655954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_120
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2851
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf429aaa8e89984b96f5caa2a1c339e
+      internalID: -1237980371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_121
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2846
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611486b6411a0b04c952442aa34bfd18
+      internalID: 1057061564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_122
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2854
+        width: 169
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6f04c74d79c6941a14a3e816e42106
+      internalID: 524610271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_123
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2852
+        width: 172
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6a0763e60f9134ba4e8d066fba9209
+      internalID: 1714466147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_124
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 2848
+        width: 175
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de006766ac849b4e90a0727b5dd6090
+      internalID: -1508899376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_125
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 2851
+        width: 178
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6408a7f77ad26aa44ba6f8e818bcdd7a
+      internalID: -1592317268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_126
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 2848
+        width: 177
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acf823c80882af42a0b78e2974ba381
+      internalID: -529008794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_127
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2854
+        width: 181
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ed6b2128d086e459b80c4cb2013049
+      internalID: 606790812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_128
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 2854
+        width: 180
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566bf934e0e44804ba3273987b15c868
+      internalID: -10324065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_129
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 2866
+        width: 181
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03868decf7a80d945b79a3ce6dc9d805
+      internalID: 1404955048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_130
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 2866
+        width: 181
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caf4411d5e49c94ab0522a29e4a46d4
+      internalID: 116497955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_131
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 2857
+        width: 183
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0e5a9b26894bc4bbbc77251b181f99
+      internalID: 1081354254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_132
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2857
+        width: 181
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02029b5d525770146b78ffd1f1bd04bf
+      internalID: 1166588692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_133
+      rect:
+        serializedVersion: 2
+        x: 3345
+        y: 2866
+        width: 181
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70120dc3acb0c184eb471cae7546c105
+      internalID: -2145259952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_134
+      rect:
+        serializedVersion: 2
+        x: 3603
+        y: 2864
+        width: 180
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89404c19123a20f4fba8f3f7dae27a6a
+      internalID: -270568417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_135
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 2858
+        width: 180
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5590fbbf2299f274382b76683d007f22
+      internalID: -323752553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_136
+      rect:
+        serializedVersion: 2
+        x: 4113
+        y: 2861
+        width: 183
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8ba4fa9b945784fa54df257c4a0659
+      internalID: -159857185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_137
+      rect:
+        serializedVersion: 2
+        x: 4341
+        y: 2862
+        width: 148
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281c21544daf0fb45b334e02bd7b048b
+      internalID: -1807338180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_138
+      rect:
+        serializedVersion: 2
+        x: 4581
+        y: 2854
+        width: 145
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a24c7ae6ce7fde4fa677c97e0db58b8
+      internalID: 1256132213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_139
+      rect:
+        serializedVersion: 2
+        x: 4839
+        y: 2855
+        width: 142
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca00e32316bdf845ae2162fbdaf3ad9
+      internalID: -1757436580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_140
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 2855
+        width: 134
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8bd809a21280946a8003957d1b1df2
+      internalID: 418886307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_141
+      rect:
+        serializedVersion: 2
+        x: 5381
+        y: 2854
+        width: 139
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d11a35fb5fc4b242b58df2511d2a0a4
+      internalID: 83750859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_142
+      rect:
+        serializedVersion: 2
+        x: 5651
+        y: 2859
+        width: 132
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af18e3fa85678004d82ea9d53a98589b
+      internalID: 763811712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_143
+      rect:
+        serializedVersion: 2
+        x: 5912
+        y: 2852
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea5f96c108b95842b466d54adfba6c7
+      internalID: -35710556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_144
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2601
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab48039852f3714babda42fe24eb7d5
+      internalID: -449324402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_145
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2606
+        width: 160
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ff89787dc68a946b08b47335f4b655
+      internalID: -1444848034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_146
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2605
+        width: 169
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8548350171c187249b0c26627afeaacb
+      internalID: 762111349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_147
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2599
+        width: 174
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f185425cd5e7540b8e906f3cac50cb
+      internalID: 1710228014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_148
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 2600
+        width: 175
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5906377c3f4459c40b7e3c01c77a5324
+      internalID: 1536595006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_149
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2602
+        width: 178
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532f1db5b074e7f4789ed294086a012c
+      internalID: -1924942607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_150
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 2605
+        width: 178
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cb9eb9e87feeb4a886fe975f095127
+      internalID: 1207289743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_151
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 2608
+        width: 181
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8020c2718a12e44a7542d8f21ea742
+      internalID: -2039735226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_152
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 2606
+        width: 180
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be193349b21015a418d30ae1c07ba416
+      internalID: 318177533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_153
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 2612
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13698e85d92a4b34d8ef78765b85cfac
+      internalID: 569178812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_154
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 2613
+        width: 181
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09276ba4ebc436c44a61179c44bc26c3
+      internalID: 1105724238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_155
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 2608
+        width: 181
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ab56096b3d9384d93aba4c39b1ecd5
+      internalID: 925784933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_156
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 2613
+        width: 184
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb06153a59461e849b4cafd98b930078
+      internalID: -657385228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_157
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 2609
+        width: 181
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665c602a86ce0ea4fb6755bf8cb43584
+      internalID: -1782761675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_158
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 2614
+        width: 181
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b30dd72a963a64b987e946e521d5bf
+      internalID: -600584960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_159
+      rect:
+        serializedVersion: 2
+        x: 3822
+        y: 2607
+        width: 184
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dce76a3f4a718847aa36380d8f83a68
+      internalID: -1237241495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_160
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 2611
+        width: 181
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82ec263ea95bee4c9716ae606bdc355
+      internalID: -452028037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_161
+      rect:
+        serializedVersion: 2
+        x: 4397
+        y: 2615
+        width: 148
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4483a0b36d6c84f826afb9ceca2a2e
+      internalID: 1988369427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_162
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 2613
+        width: 145
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea191f5c0a72ef4e8f9bfd9411e3868
+      internalID: -1632094193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_163
+      rect:
+        serializedVersion: 2
+        x: 4930
+        y: 2611
+        width: 143
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022dd8216db6d044cb02e5271cc51188
+      internalID: 1364158619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_164
+      rect:
+        serializedVersion: 2
+        x: 5183
+        y: 2614
+        width: 135
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec039338beb2cb74680769cbc7b2d32a
+      internalID: -704848625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_165
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 2604
+        width: 140
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8c1bdabb9d1464787c9fc9845bcf8b
+      internalID: 881236331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_166
+      rect:
+        serializedVersion: 2
+        x: 5663
+        y: 2601
+        width: 133
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbecd3c4b18916b4ebf57833d091b487
+      internalID: 517708079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_167
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 2601
+        width: 135
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b614775df32eb4b8cc1543da1a51bf
+      internalID: -33719762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_168
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2344
+        width: 137
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcdd1e775b64b840bd8501bfa2bfa2e
+      internalID: 1232775214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_169
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2347
+        width: 157
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c61a4726eef3e42b5089aa5ed57fc9
+      internalID: -411670182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_170
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2344
+        width: 166
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98c4056393784d438e5ec1bd8bcda75
+      internalID: -1136371232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_171
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2345
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48830675c3e82046985fcb73ccf2ad3
+      internalID: 64339626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_172
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 2347
+        width: 172
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5235acb3772144c48b86627224f17b87
+      internalID: -2109048276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_173
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 2347
+        width: 174
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e171260af84f564eb06a50a1c825086
+      internalID: -249076109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_174
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 2344
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24fc255fc70d73489bbbfd46321fb30
+      internalID: 531725870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_175
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 2353
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93d0be5ef0e25d4181abb5f1bfbe491
+      internalID: 115032180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_176
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 2351
+        width: 175
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7952e56f9c3ee64f87c9efdfd81c6c3
+      internalID: 335051985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_177
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 2356
+        width: 178
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578de979214ad8e45b159628b0b9837b
+      internalID: 1782954881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_178
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 2354
+        width: 178
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fa2e799e046f7438dcaa7003ff0303
+      internalID: -2092114543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_179
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 2353
+        width: 178
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262d2ef8cbd21b34480cad42ee2c1469
+      internalID: -1373252244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_180
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 2356
+        width: 178
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350b919629333a74b97d0f6c0c9d7b26
+      internalID: 1772246898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_181
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 2356
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bb36798edd5164899790b0b953dc5c
+      internalID: -1127141119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_182
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2356
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc46197702b87bf4a8a4de4039ec1a6d
+      internalID: -2005350880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_183
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 2356
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46c645c04fd1d34cbdc665e52a9d329
+      internalID: -849097269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_184
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 2356
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0688afd69b1368b47bce15d9ab683ba7
+      internalID: -905469520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_185
+      rect:
+        serializedVersion: 2
+        x: 4341
+        y: 2362
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10088bd8a09ca844aa16a18e5907919d
+      internalID: -601498328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_186
+      rect:
+        serializedVersion: 2
+        x: 4581
+        y: 2357
+        width: 145
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e2ab465f7dbcd47817ad38c55e2fc5
+      internalID: -866762197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_187
+      rect:
+        serializedVersion: 2
+        x: 4839
+        y: 2354
+        width: 142
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824d95c396cfd5041a88aaf6cc372d15
+      internalID: 2054738832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_188
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 2356
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0712a9ac3eef44bb00c7998d21a973
+      internalID: -1980099216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_189
+      rect:
+        serializedVersion: 2
+        x: 5381
+        y: 2347
+        width: 139
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d627034e72c7e1f4eb54e97d5cdb97b8
+      internalID: 989845261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_190
+      rect:
+        serializedVersion: 2
+        x: 5654
+        y: 2344
+        width: 130
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e440cc8ab17f63940ac8c183f9d6509a
+      internalID: 528233482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_191
+      rect:
+        serializedVersion: 2
+        x: 5914
+        y: 2130
+        width: 156
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68d067af95b9084987fe425339ce888
+      internalID: -1964082346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2083
+        width: 182
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab570dc36d175594fb6c9b65965287fa
+      internalID: 943128838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_193
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 2080
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b0150c49740da4bb2056618bc39e0f
+      internalID: 1292262942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_194
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2083
+        width: 187
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd4527856b848b47958738311da7ddf
+      internalID: 1493814436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_195
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2084
+        width: 190
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e168a50b4f2eb4f91f70ac1807949f
+      internalID: -380159456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_196
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 2083
+        width: 190
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df017b16eb1c555408db5ee154f04dd4
+      internalID: -1569312582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_197
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2081
+        width: 190
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05948a3e0bc2cd44dabc7cbb67169da5
+      internalID: 1800547807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_198
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 2084
+        width: 189
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f031dedddb7892c48b48b667b26cf70a
+      internalID: -619280915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_199
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 2080
+        width: 186
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd09ce95dbbbdd48abbf893f0008d36
+      internalID: 190200249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_200
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2083
+        width: 188
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8603431bf54895a4dbf886589695cf1c
+      internalID: -1904773001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_201
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 2087
+        width: 187
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c179fcbc4951b0e4cb482bffde8739e7
+      internalID: -1143847367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_202
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 2089
+        width: 187
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d235267dd0c142e4a9035758df95a496
+      internalID: 1146717291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_203
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2080
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a794acddb3d6b1429cc9d2d355a4cc7
+      internalID: 660800404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1837
+        width: 185
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8923b373513c2b448d750110130a35a
+      internalID: 239204811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_205
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1843
+        width: 184
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b7bf5b62d2a054e8e836f2cf9bd88d
+      internalID: -1437854612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_206
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1837
+        width: 187
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c511bab0ec9fd4b4cb48613e90cb0477
+      internalID: 1171689863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_207
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1834
+        width: 187
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b96528304b0174cbc3737d27e8dfc3
+      internalID: -1963062991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_208
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1837
+        width: 190
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebeb80f3b166c740aaff9638e072d52
+      internalID: -1788642496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_209
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1837
+        width: 190
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba374b7146cf8b4dbfcc4b2d080fe8e
+      internalID: -658077230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_210
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1837
+        width: 189
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4b5f25e32ce454a88767fd29bff84e
+      internalID: -624752064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_211
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1840
+        width: 189
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19de73216eb029744b23211f9839d5a1
+      internalID: 1578001990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_212
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 1834
+        width: 186
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96e768b882df9f448a23218bbfdd97d
+      internalID: -1299319631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_213
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 1838
+        width: 186
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5290e6a64f74fe489a70f9c757bad33
+      internalID: -2102310405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_214
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 1837
+        width: 187
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad34899370447c1418570d543029c0da
+      internalID: 1946199763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_215
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 1832
+        width: 184
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd175c34f165744599df46e81a52b03
+      internalID: 1320344160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_216
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1558
+        width: 50
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd94cca9f8f354d9709c8966873a16
+      internalID: -267308151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_217
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1558
+        width: 52
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5896f14d8b9327a46b2f0e5a4de533d8
+      internalID: -754643165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_218
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1558
+        width: 48
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905a71b610165a34ea330951f6707003
+      internalID: -1658329043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_219
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1558
+        width: 51
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4723e016bc33e4680d51ebcec21f3b
+      internalID: 1983623722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_220
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1558
+        width: 51
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dc0d4c979048c4fa9b40330054a9ac
+      internalID: -983344626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_221
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1558
+        width: 53
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bee3ccd3a52863428efa281e2fcfd60
+      internalID: 629810347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_222
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1558
+        width: 50
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81bf3bb1ca104043902bdc2d708dc44
+      internalID: 1225122073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_223
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1558
+        width: 53
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5376d8eac5635db4f881dbecba8cdbcc
+      internalID: 310507365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_224
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1558
+        width: 50
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4395f58e7e7736a4ca5b4e21b81e05fe
+      internalID: -792192572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_225
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 1558
+        width: 52
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26434de4a5e469b4da776161116a3267
+      internalID: 1776142008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_226
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 1558
+        width: 52
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d9cec23092c2540a74f296d39da7d9
+      internalID: -2037501239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_227
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1558
+        width: 51
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de569979d18f5c245a1cf82c281af81a
+      internalID: 1285754543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_228
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1303
+        width: 52
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c9016ef04f9f9448d913f24f9265a7
+      internalID: -408748600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_229
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1303
+        width: 50
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfdc57b6fbf8744abdd5fbe4ed1365b
+      internalID: -575963021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_230
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1303
+        width: 51
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179bc5a8d6cf99943b8967d4ef41a89e
+      internalID: -31278023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_231
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1303
+        width: 51
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a85c02bc3c72c64aabcbc45c00d335f
+      internalID: -71351673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_232
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1303
+        width: 52
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8942a083423d204d88f0eea3529f42a
+      internalID: -1980989163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_233
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1303
+        width: 50
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc582abf4ad37f439c712f36ec86d5c
+      internalID: 1599643288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_234
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1303
+        width: 50
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bec2fe0f96a174ea29e91aac532a2a
+      internalID: 494101026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_235
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1303
+        width: 52
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd59ba322ddb9b47b396a729e46e692
+      internalID: -371024701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_236
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1303
+        width: 52
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73ad535f4502964fba7b6bcb6bfd2c7
+      internalID: 1651655251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_237
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 1303
+        width: 50
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c3335db9a0ce94db32b33e2728e6f8
+      internalID: -3335348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_238
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 1303
+        width: 52
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b7b6f57848c4428cb72265eb084bc
+      internalID: -2015727271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_239
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 1303
+        width: 52
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc9231cc2c98cc47b5488113a806f27
+      internalID: -97764027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_240
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1060
+        width: 137
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8574d15ae79f97e4585cdae5352b2e34
+      internalID: 1660793500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_241
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1058
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95ac0af55f8a784998ec43d331ccc76
+      internalID: 730173673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_242
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1058
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659e1060425d2c74e864142a92918503
+      internalID: -1113675611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_243
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1058
+        width: 139
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbdfb6fcf1350349b89cfb739f5d261
+      internalID: 1133639863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_244
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1057
+        width: 139
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876d630e996dc5745bee9050e3612624
+      internalID: -660522138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_245
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1054
+        width: 139
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f874e0e5212f745864d9888580b9ab
+      internalID: -1982041765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_246
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1060
+        width: 139
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422adcd23eab6e2418c117af473354a1
+      internalID: -1318510026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_247
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1054
+        width: 139
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6a6c8adbe2f7248ad2fa586ebe4171
+      internalID: 1269389232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_248
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1060
+        width: 138
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36661faa71b7d1c4e9e53076407704bd
+      internalID: 730859378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_249
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1060
+        width: 139
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a9449d0c8d5ca40997b45440daf59d
+      internalID: -962206841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_250
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1060
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0074ef415029c14459df4869103ba1f8
+      internalID: -629523387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_251
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 1057
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38d86f436e47d94590864e70dff8726
+      internalID: -1825122578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_252
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 802
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e328ababd0da51742814a6124ac9f8c2
+      internalID: 318594413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_253
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 799
+        width: 136
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294a1616142c29647b904941379e6b47
+      internalID: 1288003915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_254
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 805
+        width: 139
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5a02dff6db92d41a378e8743022f15
+      internalID: 1969147350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_255
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 805
+        width: 139
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7c973ac05ddf04ca3b93ecb14b8f2f
+      internalID: 50872808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_256
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 800
+        width: 139
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8768f8ba4ff8fdf49a6b1e4e4c9175d6
+      internalID: -752324587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_257
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 803
+        width: 139
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e586cb8462f63ab4fa0e6349b6f0ed08
+      internalID: -592844440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_258
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 799
+        width: 140
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26c323a0b2220b43903e18143fa3393
+      internalID: -1541417760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_259
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 802
+        width: 140
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fb60838a1ef5148a329a682a6c13db
+      internalID: 1071657750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_260
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 800
+        width: 140
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9275565f4418f54592e87149a95e96f
+      internalID: 1763968076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_261
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 805
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3228976b4853cd4418d10871d07d122c
+      internalID: -273196637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_262
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 805
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ced988a3a40e534c9c7057244d8f961
+      internalID: 1306412510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_263
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 800
+        width: 136
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4f52f968d53144b89ee3e6d5efc95c
+      internalID: 1043948359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_264
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 553
+        width: 137
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4a506f43912fa42a9d5490d423969c
+      internalID: -282130327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_265
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 553
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8741ba1e2cbca248aabdee84afb366a
+      internalID: -329906146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_266
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 553
+        width: 139
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388d3bfff2db354478e01645b949ae54
+      internalID: 985147960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_267
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 551
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074c02ea81ad9904b82f008e776bfcad
+      internalID: -310396976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_268
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 553
+        width: 139
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb798f5a2d34807459d4842029bbaa42
+      internalID: 2011202735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_269
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 553
+        width: 139
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527f7c2b776cf884294f55307cd4804b
+      internalID: 238800091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_270
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 553
+        width: 140
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75492b64f23b66741b1095f9b349aad9
+      internalID: -353277894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_271
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 553
+        width: 140
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a948d580e251014ca259e906ac80453
+      internalID: 909817650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_272
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 551
+        width: 139
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056ec57a39d3bca43b8703f8c18518ae
+      internalID: 870695832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_273
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 553
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea81ce0f2321cc748bc721f10a1b93ef
+      internalID: -799079012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_274
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 553
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d9b24f75bed0f47bdc92eedd5995e2
+      internalID: 1124736814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_275
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 550
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c02630480c968345b0b5d24082dc701
+      internalID: -698629090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_276
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 295
+        width: 137
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1765a4bf3867d34898f06d04bb21493
+      internalID: -1335184086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_277
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 295
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168a1c991e5971948a3bb60c47dda2ef
+      internalID: -1032557744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_278
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 295
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c518c5376f20f5248b2c16bdb26c5c4a
+      internalID: -1062146807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_279
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 296
+        width: 139
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b36e162cf137d45a12957905a39fee
+      internalID: 819972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_280
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 296
+        width: 139
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca5d6a3ba5ca274a8785a1d4ee9b903
+      internalID: -1404246664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_281
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 297
+        width: 141
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ce29b66ae4334478fba742939f9a5a
+      internalID: 1588818438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_282
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 295
+        width: 140
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b537b06d4887be46a31de0a1a2d0c52
+      internalID: -1494932196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_283
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 297
+        width: 140
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2689a589003838944939f495307d6aed
+      internalID: 1633534445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_284
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 297
+        width: 137
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821b16e0d69858f43a52dab70d4dde44
+      internalID: 1772125898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_285
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 295
+        width: 139
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072b7e64f12b6874282d5c45a5f09de3
+      internalID: 1975876023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_286
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 295
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1769d6cf17a84e1419383e7c5251ae21
+      internalID: 54426444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_287
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 295
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2949d8b9970bde429b2e009731c00ce
+      internalID: 68693271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 173
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a8f035a844596488df386dd6b022cd
+      internalID: 1944475192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_289
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 17
+        width: 182
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ffd1412d85a654ba082a4d62a8a5c5
+      internalID: 753771416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_290
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 11
+        width: 189
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2ede58fe8e89643b0466e746053756
+      internalID: 31563652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_291
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 11
+        width: 191
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c9cf813c0352f469ed4d88a56f79ab
+      internalID: 1645935808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_292
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 15
+        width: 192
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2144cb79df3e574187cc0546db11a05
+      internalID: 1893640741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_293
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 12
+        width: 192
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593daf1cacb419949aa09a9f8b26911a
+      internalID: -216413434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_294
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 15
+        width: 195
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eff6bcc60cfdf4383bfa7da82370f5
+      internalID: -664466127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_295
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 12
+        width: 197
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51cde9b9d33a2a40980af3536f139b5
+      internalID: -222315511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_296
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 11
+        width: 198
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3271ff71406e38448636817b09bbfe8
+      internalID: -1937557177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_297
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 9
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d291e8fa02c14cbf3c04cdb96d70c
+      internalID: -2108799797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_298
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 5
+        width: 201
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a194855d48a89e43b332581d8ee2e51
+      internalID: -1105562625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_299
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 8
+        width: 202
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca68618701ce574dbdc1bf86554758c
+      internalID: 1242981447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_300
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 5
+        width: 203
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ade0c64e69d8b4896f2f7abfb62421
+      internalID: 345688725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_301
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 0
+        width: 203
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc4c8db53fb40b4f96dc077c030bb3c
+      internalID: -815886690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_302
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 11
+        width: 203
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d229f4eff852409babdc97460c1e2
+      internalID: 1909410284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_303
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 8
+        width: 192
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06fed5edc6089a4a8f00faa68011598
+      internalID: 2092256115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_304
+      rect:
+        serializedVersion: 2
+        x: 4089
+        y: 2
+        width: 195
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ad0d7df2f176c47b896c4112e32924
+      internalID: -999011700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_305
+      rect:
+        serializedVersion: 2
+        x: 4345
+        y: 5
+        width: 193
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac52a6944a9bf9499eb755a4f655c3a
+      internalID: 1425392466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_306
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 0
+        width: 193
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cdde31a2c43fd498a040b0b33a5dd2
+      internalID: -1911664599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_307
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 0
+        width: 193
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516fe5f62311ccf45893df4cb1266345
+      internalID: 2118800961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_308
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5
+        width: 186
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97017875463a08c489ab20f3e50b7168
+      internalID: -1919611121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_309
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 71
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84332c66f1b91f740ae87240e8ef802e
+      internalID: -680228511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_310
+      rect:
+        serializedVersion: 2
+        x: 5382
+        y: 2
+        width: 179
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac3d3e2fb0e683438d9077cf4a506c5
+      internalID: -597452419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_311
+      rect:
+        serializedVersion: 2
+        x: 5634
+        y: 3
+        width: 181
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9093f7d8fd260b4e93125dbc73265d3
+      internalID: 1650749936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_312
+      rect:
+        serializedVersion: 2
+        x: 5640
+        y: 133
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1081236bdef37448586c946f939469
+      internalID: 1469965024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_313
+      rect:
+        serializedVersion: 2
+        x: 5992
+        y: 42
+        width: 78
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d620c131285154698dfbff7fa3e3df
+      internalID: 749191029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_314
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 27
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8941e3521a185c14a94da1f4366f0d07
+      internalID: -1010750160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_v01_315
+      rect:
+        serializedVersion: 2
+        x: 5371
+        y: 30
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f72a37065991a54d9704fbc445009ef
+      internalID: -1699107564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy_Ranged_v01_154: 1105724238
+      Enemy_Ranged_v01_20: 179102472
+      Enemy_Ranged_v01_274: 1124736814
+      Enemy_Ranged_v01_84: 528355648
+      Enemy_Ranged_v01_309: -680228511
+      Enemy_Ranged_v01_187: 2054738832
+      Enemy_Ranged_v01_94: 1155280160
+      Enemy_Ranged_v01_151: -2039735226
+      Enemy_Ranged_v01_133: -2145259952
+      Enemy_Ranged_v01_172: -2109048276
+      Enemy_Ranged_v01_294: -664466127
+      Enemy_Ranged_v01_100: 1223788063
+      Enemy_Ranged_v01_214: 1946199763
+      Enemy_Ranged_v01_174: 531725870
+      Enemy_Ranged_v01_7: 1274098785
+      Enemy_Ranged_v01_24: -776655983
+      Enemy_Ranged_v01_229: -575963021
+      Enemy_Ranged_v01_98: -1980874099
+      Enemy_Ranged_v01_72: 1167897855
+      Enemy_Ranged_v01_275: -698629090
+      Enemy_Ranged_v01_252: 318594413
+      Enemy_Ranged_v01_63: -995642712
+      Enemy_Ranged_v01_259: 1071657750
+      Enemy_Ranged_v01_38: 1935560713
+      Enemy_Ranged_v01_182: -2005350880
+      Enemy_Ranged_v01_305: 1425392466
+      Enemy_Ranged_v01_181: -1127141119
+      Enemy_Ranged_v01_111: -1823589067
+      Enemy_Ranged_v01_31: 186492590
+      Enemy_Ranged_v01_272: 870695832
+      Enemy_Ranged_v01_242: -1113675611
+      Enemy_Ranged_v01_162: -1632094193
+      Enemy_Ranged_v01_164: -704848625
+      Enemy_Ranged_v01_130: 116497955
+      Enemy_Ranged_v01_44: 2135578162
+      Enemy_Ranged_v01_221: 629810347
+      Enemy_Ranged_v01_14: 1164155211
+      Enemy_Ranged_v01_41: 127151056
+      Enemy_Ranged_v01_139: -1757436580
+      Enemy_Ranged_v01_115: -579244996
+      Enemy_Ranged_v01_0: -1730943929
+      Enemy_Ranged_v01_192: 943128838
+      Enemy_Ranged_v01_311: 1650749936
+      Enemy_Ranged_v01_137: -1807338180
+      Enemy_Ranged_v01_11: -333308027
+      Enemy_Ranged_v01_30: -822309728
+      Enemy_Ranged_v01_88: 403311989
+      Enemy_Ranged_v01_45: -256337916
+      Enemy_Ranged_v01_132: 1166588692
+      Enemy_Ranged_v01_138: 1256132213
+      Enemy_Ranged_v01_201: -1143847367
+      Enemy_Ranged_v01_46: -1377022456
+      Enemy_Ranged_v01_32: -1572400285
+      Enemy_Ranged_v01_58: 166338812
+      Enemy_Ranged_v01_301: -815886690
+      Enemy_Ranged_v01_64: -2093157941
+      Enemy_Ranged_v01_269: 238800091
+      Enemy_Ranged_v01_251: -1825122578
+      Enemy_Ranged_v01_234: 494101026
+      Enemy_Ranged_v01_146: 762111349
+      Enemy_Ranged_v01_307: 2118800961
+      Enemy_Ranged_v01_49: -1369927917
+      Enemy_Ranged_v01_199: 190200249
+      Enemy_Ranged_v01_1: 155315971
+      Enemy_Ranged_v01_47: -827510883
+      Enemy_Ranged_v01_238: -2015727271
+      Enemy_Ranged_v01_42: 438064752
+      Enemy_Ranged_v01_103: -1790570375
+      Enemy_Ranged_v01_220: -983344626
+      Enemy_Ranged_v01_194: 1493814436
+      Enemy_Ranged_v01_263: 1043948359
+      Enemy_Ranged_v01_159: -1237241495
+      Enemy_Ranged_v01_314: -1010750160
+      Enemy_Ranged_v01_27: -1790552637
+      Enemy_Ranged_v01_185: -601498328
+      Enemy_Ranged_v01_79: -1945967941
+      Enemy_Ranged_v01_19: 55533281
+      Enemy_Ranged_v01_66: 47343912
+      Enemy_Ranged_v01_97: 396348989
+      Enemy_Ranged_v01_197: 1800547807
+      Enemy_Ranged_v01_108: -975438479
+      Enemy_Ranged_v01_171: 64339626
+      Enemy_Ranged_v01_81: 624262138
+      Enemy_Ranged_v01_55: -1292265060
+      Enemy_Ranged_v01_107: 954465652
+      Enemy_Ranged_v01_78: 2147327949
+      Enemy_Ranged_v01_128: -10324065
+      Enemy_Ranged_v01_285: 1975876023
+      Enemy_Ranged_v01_297: -2108799797
+      Enemy_Ranged_v01_101: -1142785822
+      Enemy_Ranged_v01_142: 763811712
+      Enemy_Ranged_v01_40: -640310414
+      Enemy_Ranged_v01_166: 517708079
+      Enemy_Ranged_v01_255: 50872808
+      Enemy_Ranged_v01_157: -1782761675
+      Enemy_Ranged_v01_248: 730859378
+      Enemy_Ranged_v01_245: -1982041765
+      Enemy_Ranged_v01_299: 1242981447
+      Enemy_Ranged_v01_57: 535950389
+      Enemy_Ranged_v01_105: 1063149674
+      Enemy_Ranged_v01_4: 893787259
+      Enemy_Ranged_v01_134: -270568417
+      Enemy_Ranged_v01_52: 1729381582
+      Enemy_Ranged_v01_112: 512508801
+      Enemy_Ranged_v01_150: 1207289743
+      Enemy_Ranged_v01_198: -619280915
+      Enemy_Ranged_v01_286: 54426444
+      Enemy_Ranged_v01_224: -792192572
+      Enemy_Ranged_v01_291: 1645935808
+      Enemy_Ranged_v01_77: 1932803821
+      Enemy_Ranged_v01_158: -600584960
+      Enemy_Ranged_v01_35: 1193312671
+      Enemy_Ranged_v01_218: -1658329043
+      Enemy_Ranged_v01_12: 78480684
+      Enemy_Ranged_v01_122: 524610271
+      Enemy_Ranged_v01_226: -2037501239
+      Enemy_Ranged_v01_70: -2094618397
+      Enemy_Ranged_v01_200: -1904773001
+      Enemy_Ranged_v01_296: -1937557177
+      Enemy_Ranged_v01_143: -35710556
+      Enemy_Ranged_v01_5: 1511882985
+      Enemy_Ranged_v01_165: 881236331
+      Enemy_Ranged_v01_184: -905469520
+      Enemy_Ranged_v01_276: -1335184086
+      Enemy_Ranged_v01_279: 819972
+      Enemy_Ranged_v01_222: 1225122073
+      Enemy_Ranged_v01_131: 1081354254
+      Enemy_Ranged_v01_39: -2130806114
+      Enemy_Ranged_v01_315: -1699107564
+      Enemy_Ranged_v01_180: 1772246898
+      Enemy_Ranged_v01_270: -353277894
+      Enemy_Ranged_v01_80: -18970663
+      Enemy_Ranged_v01_290: 31563652
+      Enemy_Ranged_v01_135: -323752553
+      Enemy_Ranged_v01_196: -1569312582
+      Enemy_Ranged_v01_244: -660522138
+      Enemy_Ranged_v01_75: -1677878601
+      Enemy_Ranged_v01_300: 345688725
+      Enemy_Ranged_v01_293: -216413434
+      Enemy_Ranged_v01_26: -2126850283
+      Enemy_Ranged_v01_144: -449324402
+      Enemy_Ranged_v01_147: 1710228014
+      Enemy_Ranged_v01_193: 1292262942
+      Enemy_Ranged_v01_183: -849097269
+      Enemy_Ranged_v01_266: 985147960
+      Enemy_Ranged_v01_304: -999011700
+      Enemy_Ranged_v01_56: -1268827153
+      Enemy_Ranged_v01_9: -886833445
+      Enemy_Ranged_v01_149: -1924942607
+      Enemy_Ranged_v01_170: -1136371232
+      Enemy_Ranged_v01_205: -1437854612
+      Enemy_Ranged_v01_99: 665496312
+      Enemy_Ranged_v01_6: -1264878095
+      Enemy_Ranged_v01_163: 1364158619
+      Enemy_Ranged_v01_54: -952883330
+      Enemy_Ranged_v01_243: 1133639863
+      Enemy_Ranged_v01_298: -1105562625
+      Enemy_Ranged_v01_62: -129196537
+      Enemy_Ranged_v01_109: 1889316323
+      Enemy_Ranged_v01_119: 234655954
+      Enemy_Ranged_v01_118: -2075762407
+      Enemy_Ranged_v01_206: 1171689863
+      Enemy_Ranged_v01_155: 925784933
+      Enemy_Ranged_v01_240: 1660793500
+      Enemy_Ranged_v01_73: -1039169419
+      Enemy_Ranged_v01_213: -2102310405
+      Enemy_Ranged_v01_246: -1318510026
+      Enemy_Ranged_v01_123: 1714466147
+      Enemy_Ranged_v01_127: 606790812
+      Enemy_Ranged_v01_2: 1357378556
+      Enemy_Ranged_v01_223: 310507365
+      Enemy_Ranged_v01_25: 1266066800
+      Enemy_Ranged_v01_43: 1669312357
+      Enemy_Ranged_v01_85: -404654009
+      Enemy_Ranged_v01_140: 418886307
+      Enemy_Ranged_v01_161: 1988369427
+      Enemy_Ranged_v01_176: 335051985
+      Enemy_Ranged_v01_257: -592844440
+      Enemy_Ranged_v01_116: -805396445
+      Enemy_Ranged_v01_59: 1617899706
+      Enemy_Ranged_v01_51: -332540617
+      Enemy_Ranged_v01_69: -1591011153
+      Enemy_Ranged_v01_153: 569178812
+      Enemy_Ranged_v01_178: -2092114543
+      Enemy_Ranged_v01_8: 1748924300
+      Enemy_Ranged_v01_82: -852994787
+      Enemy_Ranged_v01_126: -529008794
+      Enemy_Ranged_v01_260: 1763968076
+      Enemy_Ranged_v01_93: -103653286
+      Enemy_Ranged_v01_211: 1578001990
+      Enemy_Ranged_v01_313: 749191029
+      Enemy_Ranged_v01_262: 1306412510
+      Enemy_Ranged_v01_189: 989845261
+      Enemy_Ranged_v01_295: -222315511
+      Enemy_Ranged_v01_256: -752324587
+      Enemy_Ranged_v01_247: 1269389232
+      Enemy_Ranged_v01_37: 1897290411
+      Enemy_Ranged_v01_74: -103095233
+      Enemy_Ranged_v01_230: -31278023
+      Enemy_Ranged_v01_283: 1633534445
+      Enemy_Ranged_v01_264: -282130327
+      Enemy_Ranged_v01_104: 703953729
+      Enemy_Ranged_v01_67: 644272349
+      Enemy_Ranged_v01_277: -1032557744
+      Enemy_Ranged_v01_217: -754643165
+      Enemy_Ranged_v01_231: -71351673
+      Enemy_Ranged_v01_261: -273196637
+      Enemy_Ranged_v01_3: -1106063710
+      Enemy_Ranged_v01_50: 1178516883
+      Enemy_Ranged_v01_53: 1781615522
+      Enemy_Ranged_v01_124: -1508899376
+      Enemy_Ranged_v01_208: -1788642496
+      Enemy_Ranged_v01_34: 453961387
+      Enemy_Ranged_v01_121: 1057061564
+      Enemy_Ranged_v01_92: 774694739
+      Enemy_Ranged_v01_203: 660800404
+      Enemy_Ranged_v01_268: 2011202735
+      Enemy_Ranged_v01_89: -416670318
+      Enemy_Ranged_v01_10: -883740012
+      Enemy_Ranged_v01_289: 753771416
+      Enemy_Ranged_v01_282: -1494932196
+      Enemy_Ranged_v01_86: 850972755
+      Enemy_Ranged_v01_228: -408748600
+      Enemy_Ranged_v01_68: -189865913
+      Enemy_Ranged_v01_96: 2002510167
+      Enemy_Ranged_v01_191: -1964082346
+      Enemy_Ranged_v01_202: 1146717291
+      Enemy_Ranged_v01_267: -310396976
+      Enemy_Ranged_v01_302: 1909410284
+      Enemy_Ranged_v01_83: -143132987
+      Enemy_Ranged_v01_235: -371024701
+      Enemy_Ranged_v01_250: -629523387
+      Enemy_Ranged_v01_241: 730173673
+      Enemy_Ranged_v01_306: -1911664599
+      Enemy_Ranged_v01_249: -962206841
+      Enemy_Ranged_v01_227: 1285754543
+      Enemy_Ranged_v01_48: -3251919
+      Enemy_Ranged_v01_265: -329906146
+      Enemy_Ranged_v01_312: 1469965024
+      Enemy_Ranged_v01_210: -624752064
+      Enemy_Ranged_v01_18: 1037180735
+      Enemy_Ranged_v01_65: 133132526
+      Enemy_Ranged_v01_253: 1288003915
+      Enemy_Ranged_v01_237: -3335348
+      Enemy_Ranged_v01_186: -866762197
+      Enemy_Ranged_v01_204: 239204811
+      Enemy_Ranged_v01_288: 1944475192
+      Enemy_Ranged_v01_141: 83750859
+      Enemy_Ranged_v01_310: -597452419
+      Enemy_Ranged_v01_236: 1651655251
+      Enemy_Ranged_v01_207: -1963062991
+      Enemy_Ranged_v01_212: -1299319631
+      Enemy_Ranged_v01_219: 1983623722
+      Enemy_Ranged_v01_87: -1107822319
+      Enemy_Ranged_v01_168: 1232775214
+      Enemy_Ranged_v01_173: -249076109
+      Enemy_Ranged_v01_271: 909817650
+      Enemy_Ranged_v01_239: -97764027
+      Enemy_Ranged_v01_308: -1919611121
+      Enemy_Ranged_v01_188: -1980099216
+      Enemy_Ranged_v01_233: 1599643288
+      Enemy_Ranged_v01_167: -33719762
+      Enemy_Ranged_v01_60: -2056451292
+      Enemy_Ranged_v01_254: 1969147350
+      Enemy_Ranged_v01_125: -1592317268
+      Enemy_Ranged_v01_303: 2092256115
+      Enemy_Ranged_v01_177: 1782954881
+      Enemy_Ranged_v01_17: -272332598
+      Enemy_Ranged_v01_71: -1212471625
+      Enemy_Ranged_v01_110: 1399434121
+      Enemy_Ranged_v01_106: 1861479520
+      Enemy_Ranged_v01_114: 1660856448
+      Enemy_Ranged_v01_15: -470012836
+      Enemy_Ranged_v01_179: -1373252244
+      Enemy_Ranged_v01_190: 528233482
+      Enemy_Ranged_v01_284: 1772125898
+      Enemy_Ranged_v01_23: 106465518
+      Enemy_Ranged_v01_13: -394595714
+      Enemy_Ranged_v01_61: -1624927440
+      Enemy_Ranged_v01_148: 1536595006
+      Enemy_Ranged_v01_95: 1017090627
+      Enemy_Ranged_v01_113: 599002342
+      Enemy_Ranged_v01_117: -2100337020
+      Enemy_Ranged_v01_273: -799079012
+      Enemy_Ranged_v01_152: 318177533
+      Enemy_Ranged_v01_292: 1893640741
+      Enemy_Ranged_v01_280: -1404246664
+      Enemy_Ranged_v01_33: -309915881
+      Enemy_Ranged_v01_36: 1843710709
+      Enemy_Ranged_v01_21: 166304639
+      Enemy_Ranged_v01_216: -267308151
+      Enemy_Ranged_v01_22: 1151609294
+      Enemy_Ranged_v01_76: 1461873432
+      Enemy_Ranged_v01_90: 210652619
+      Enemy_Ranged_v01_225: 1776142008
+      Enemy_Ranged_v01_156: -657385228
+      Enemy_Ranged_v01_120: -1237980371
+      Enemy_Ranged_v01_145: -1444848034
+      Enemy_Ranged_v01_278: -1062146807
+      Enemy_Ranged_v01_232: -1980989163
+      Enemy_Ranged_v01_209: -658077230
+      Enemy_Ranged_v01_258: -1541417760
+      Enemy_Ranged_v01_160: -452028037
+      Enemy_Ranged_v01_29: -661295968
+      Enemy_Ranged_v01_136: -159857185
+      Enemy_Ranged_v01_215: 1320344160
+      Enemy_Ranged_v01_281: 1588818438
+      Enemy_Ranged_v01_169: -411670182
+      Enemy_Ranged_v01_129: 1404955048
+      Enemy_Ranged_v01_287: 68693271
+      Enemy_Ranged_v01_28: 250399972
+      Enemy_Ranged_v01_91: -1916276885
+      Enemy_Ranged_v01_195: -380159456
+      Enemy_Ranged_v01_102: -1720749088
+      Enemy_Ranged_v01_16: 1272075890
+      Enemy_Ranged_v01_175: 115032180
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

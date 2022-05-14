@@ -18,7 +18,10 @@ public class CharacterController : Characteristic
     public LayerMask whatIsEnemies;
 
     [Header("Slot Weapon")]
-    public SkillWeapon slot1;
+    public SkillWeapon weapon;
+
+    [Header("Animator")]
+    public Animator animator;
     #region singleton
     private void Awake()
     {
@@ -28,17 +31,27 @@ public class CharacterController : Characteristic
         }
         else
             Destroy(gameObject);
+
+       
     }
     #endregion
     override protected void Start()
     {
         base.Start();
-        slot1.gameObject.SetActive(true);
-        
+        weapon.gameObject.SetActive(true);
+        animator.runtimeAnimatorController = stats.animator;
     }
     private void Update()
     {
-        slot1.cdCall -= Time.deltaTime;
+        weapon.cdCall -= Time.deltaTime;
+        if(rg2d.velocity != Vector2.zero)
+        {
+            animator.SetFloat("Horizontal", rg2d.velocity.x);
+            animator.SetFloat("Vertical", rg2d.velocity.y);
+        }
+        
+        animator.SetFloat("Velocity", rg2d.velocity.sqrMagnitude);
+
     }
     private void FixedUpdate()
     {
@@ -47,7 +60,6 @@ public class CharacterController : Characteristic
         {
             if (joystickController.isDash)
             {
-                //rg2d.AddForce(dashForce * joystickController.joystickDir, ForceMode2D.Impulse);
                 rg2d.velocity = dashForce * joystickController.joystickDir;
                 joystickController.dashTime -= Time.deltaTime;
                 col.enabled = false;
@@ -63,8 +75,9 @@ public class CharacterController : Characteristic
             }
             else
                 rg2d.velocity = joystickController.joystickDir * stats.speed;
-
-            slot1.DetectRange();
+            
+            
+            weapon.DetectRange();
         }
         
 

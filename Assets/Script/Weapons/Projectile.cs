@@ -5,14 +5,13 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public WeaponStats stats;
-
+    public Rigidbody2D rg2d;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == this.tag && collision.gameObject.tag == "Enemy")
         {
 
             collision.gameObject.GetComponent<AIEnemy>().TakeDmg(stats.dmgAtk);
-            
             Destroy(this.gameObject);
         }
         else if (collision.gameObject.tag == this.tag && collision.gameObject.tag == "Player")

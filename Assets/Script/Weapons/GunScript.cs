@@ -5,11 +5,11 @@ using UnityEngine;
 public class GunScript : SkillWeapon
 {
 
-    public GameObject projectile;
+    public Projectile projectile;
     override protected void Start()
     {
         base.Start();
-        projectile.GetComponent<Projectile>().stats = stats;
+        projectile.stats = stats;
     }
 
     public override void DetectRange()
@@ -19,14 +19,14 @@ public class GunScript : SkillWeapon
 
     public override void Attacking()
     {
-        Debug.Log(this.transform.parent.parent.name + "attack");
-        GameObject pj = Instantiate(projectile, transform.position, transform.rotation);
+        
+        var pj = Instantiate(projectile, transform.position, transform.rotation);
         
         int tagName = (int)Mathf.Log(whoWasAttacked, 2);
         
         pj.tag = LayerMask.LayerToName(tagName);
-        pj.GetComponent<Projectile>().stats = stats;
-        pj.GetComponent<Rigidbody2D>().AddForce(dir * 15, ForceMode2D.Impulse);
+        pj.stats = stats;
+        pj.rg2d.AddForce(dir * 15, ForceMode2D.Impulse);
 
     }
 

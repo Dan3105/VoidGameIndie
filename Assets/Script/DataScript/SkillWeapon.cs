@@ -11,8 +11,10 @@ public class SkillWeapon : MonoBehaviour
     //
     public LayerMask whoWasAttacked;
 
-    protected Vector2 dir;
+    public Vector2 dir;
     public float cdCall;
+
+    public Animator animator;
 
     protected virtual void Start()
     {
@@ -39,25 +41,15 @@ public class SkillWeapon : MonoBehaviour
 
                 float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-                
-                if (nearest.transform.position.normalized.x > this.transform.position.normalized.x) 
-                {
-                    Transform character = transform.parent.parent;
-                    character.transform.localScale = new Vector2(Mathf.Abs(character.localScale.x), character.localScale.y);
-                    transform.parent.transform.localRotation = Quaternion.Euler(0, 0, angle);
-                }
-                else if(nearest.transform.position.normalized.x < this.transform.position.normalized.x)
-                {
-                    Transform character = transform.parent.parent;
-                    character.transform.localScale = new Vector2(-Mathf.Abs(character.localScale.x), character.localScale.y);
-                    transform.parent.transform.localRotation = Quaternion.Euler(0, 0, -angle);
-                }
+                transform.parent.transform.localRotation = Quaternion.Euler(0, 0, angle);
+              
 
-
-               
                 if (cdCall < 0)
                 {
-                    Attacking();
+                    if (LayerMask.LayerToName((int)Mathf.Log(whoWasAttacked, 2)) == "Enemy")
+                        Attacking();
+                    else
+                        animator.SetTrigger("Attack");
                     cdCall = stats.cdAtk;
                 }
             }

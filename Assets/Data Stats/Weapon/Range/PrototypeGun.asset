@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PrototypeGun
   m_EditorClassIdentifier: 
   dmgAtk: 15
-  cdAtk: 0.3
+  cdAtk: 1
   rangeDetect: 10.76
   currentDmg: 22.5
-  currentCD: 0.28500003
+  currentCD: 0.985

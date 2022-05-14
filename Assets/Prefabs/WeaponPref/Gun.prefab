@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 494351553893559879}
   - component: {fileID: 494351553893559877}
   - component: {fileID: 494351553893559876}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,5 +129,6 @@ MonoBehaviour:
   whoWasAttacked:
     serializedVersion: 2
     m_Bits: 64
+  dir: {x: 0, y: 0}
   cdCall: -78.59882
-  projectile: {fileID: 6434325036414120972, guid: da181fef0f20b1d4eb555b5b87ca0012, type: 3}
+  projectile: {fileID: 6434325036414120975, guid: da181fef0f20b1d4eb555b5b87ca0012, type: 3}

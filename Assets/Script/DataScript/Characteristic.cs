@@ -14,7 +14,7 @@ public class Characteristic : MonoBehaviour
     public bool isAlive;
     virtual protected void Start()
     {
-        crHp = stats.hp;
+        crHp = stats.crHp;
         isAlive = true;
     }
     public float AutoDetect(Collider2D character)
@@ -39,6 +39,13 @@ public class Characteristic : MonoBehaviour
     public void TakeDmg(float dmg)
     {
         crHp -= dmg;
+        if(this.name == "Player")
+        {
+            float percent = UIManager.Instance.CalPercentBar(crHp, stats.crHp);
+            UIManager.Instance.UpdateBar(percent, UIManager.Instance.hpBar);
+        }
+        
+        
         Debug.Log(gameObject.name + " hp: " + crHp);
         if (crHp <= 0)
             PlayDeath();

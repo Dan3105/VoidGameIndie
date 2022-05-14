@@ -12,30 +12,36 @@ public class AIEnemy : Characteristic
     public Transform slotWeapon;
     public SkillWeapon weapon;
 
+    [Header("Animation")]
+    public Animator animatorEnemy;
 
     protected override void Start()
     {
         base.Start();
         //set ai parameter
-        destinationSetter.target = GameObject.Find("Player").transform;
+        destinationSetter.target = GameManager.Instance.playerStats.transform;
         aiPath.maxSpeed = stats.speed;
         if(weapon.isMelee)
-            aiPath.endReachedDistance = weapon.stats.rangeDetect * 2;
+            aiPath.endReachedDistance = weapon.stats.rangeDetect;
         else
             aiPath.endReachedDistance = weapon.stats.rangeDetect * 2 / 3;
 
 
         //set stats to enemy
         crHp = stats.hp + 2f * GameManager.Instance.currentLevel;
-
-        //Instantiate weapon
-        var temp = Instantiate(weapon, slotWeapon);
-        weapon = temp;
-
+        
         //update stats for weapon
         weapon.stats.UpdateStats(GameManager.Instance.currentLevel);
 
-        //set isAlive to true
+        animatorEnemy.runtimeAnimatorController = stats.animator;
+        weapon.animator = animatorEnemy;
+        Debug.Log(animatorEnemy.name + " Name: " + weapon.name);
+    }
+
+    private void Update()
+    {
+        animatorEnemy.SetFloat("Horizontal", weapon.dir.x);
+        animatorEnemy.SetFloat("Vertical", weapon.dir.y);
         
     }
 
@@ -44,7 +50,7 @@ public class AIEnemy : Characteristic
         //cooldown attack for weapon
         weapon.cdCall -= Time.deltaTime;
         weapon.DetectRange();
-
+        
     }
 
 }

@@ -25,11 +25,8 @@ public class GameManager : SingletonTemplate<GameManager>
     public SkillWeapon weapon;              //  => instead call GetComponent in playerStats
 
     [Header("Spawning Enemies Machenic")]
-    public AIEnemy monsterDefault;
-    public SkillWeapon[] typeWeapon;         // decide enemy/monster use melee weapon or rangeWeapon
-    public WeaponStats[] meleeList;         //call randomly melee Weapon in the list
-    public WeaponStats[] rangeList;         //call randomly range Weapon in the list
-    public CharacterStats[] enemyStatsList;      //call randomly type of enemy then assign to the monster who gonna spawn
+    //public AIEnemy monsterDefault;
+    public AIEnemy[] enemyList;      //call randomly type of enemy then assign to the monster who gonna spawn
     public int spawnsPerRound;
     private ObjectPool<AIEnemy> enemyPool;
     private void Start()
@@ -52,7 +49,7 @@ public class GameManager : SingletonTemplate<GameManager>
 
         //Create ObjectPooling 
         enemyPool = new ObjectPool<AIEnemy>(
-            ListEnemyStarter,
+            () => { return Instantiate(enemyList[Random.Range(0, enemyList.Length)]); },
             SpawnEnemy,
             monster => { monster.gameObject.SetActive(false); },
             monster => { Destroy(monster.gameObject); },
@@ -60,6 +57,10 @@ public class GameManager : SingletonTemplate<GameManager>
             );    
 
         spawnsPerRound = 0;
+
+        //Set stats Bar 
+        UIManager.Instance.UpdateBar(1, UIManager.Instance.hpBar);
+        UIManager.Instance.UpdateBar(0, UIManager.Instance.expBar);
     }
 
     public void Update()
@@ -67,7 +68,7 @@ public class GameManager : SingletonTemplate<GameManager>
         currentTimeSpawn += Time.deltaTime;
         if(currentTimeSpawn >= timeSpawnDefault && spawnsPerRound == 0)
         {
-            int numberEnemy = Random.Range(3, 6);
+            int numberEnemy = Random.Range(3 , 6);
             spawnsPerRound = numberEnemy;
             for (int i = 0; i < numberEnemy; i++)
             {
@@ -75,13 +76,6 @@ public class GameManager : SingletonTemplate<GameManager>
             }
             currentTimeSpawn = 0;
         }
-    }
-
-    public AIEnemy ListEnemyStarter()
-    {
-        var enemy = Instantiate(monsterDefault);
-        UpdateRandomEnemy(ref enemy);
-        return enemy;
     }
 
     public void SpawnEnemy(AIEnemy enemy)
@@ -93,9 +87,8 @@ public class GameManager : SingletonTemplate<GameManager>
 
         UpdateRandomEnemy(ref enemy);
         enemy.gameObject.SetActive(true);
+
     }
-
-
 
     public void AddExp(float amount)
     {
@@ -106,34 +99,22 @@ public class GameManager : SingletonTemplate<GameManager>
             weapon.stats.UpdateStats(currentLevel);
             nextExperience = currentLevel * 100 * 1.25f;
             experience = nextExperience - experience;
-            
+           
         }
+        float percent = UIManager.Instance.CalPercentBar(experience, nextExperience);
+        UIManager.Instance.UpdateBar(percent, UIManager.Instance.expBar);
         Debug.Log("Player level: " + currentLevel + " Exp: " + experience + " NextLV: " + nextExperience);
     }
 
     public void UpdateStatsPlayer()
     {
         weapon.stats.UpdateStats(currentLevel);
+        float percent = UIManager.Instance.CalPercentBar(playerStats.crHp, playerStats.stats.crHp);
+        UIManager.Instance.UpdateBar(percent, UIManager.Instance.hpBar);
     }
 
     public void UpdateRandomEnemy(ref AIEnemy enemy)
     {
-        //call random type of weapon
-        enemy.weapon = typeWeapon[Random.Range(0, typeWeapon.Length)];
-
-        //depend which type of weapon then set stats
-        if (enemy.weapon.isMelee)
-        {
-            enemy.weapon.stats = meleeList[Random.Range(0, meleeList.Length)];
-        } 
-        else
-        {
-            enemy.weapon.stats = rangeList[Random.Range(0, rangeList.Length)];
-        }
-            
-
-        //set stats of enemy
-        enemy.stats = enemyStatsList[Random.Range(0, enemyStatsList.Length)];
         
     }
 }
