@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4217b45bee39c7544ae804932d7bb5ca, type: 3}
   m_Name: EnemyMeleePrototype
   m_EditorClassIdentifier: 
-  hp: Infinity
-  speed: 5
-  def: 0
-  exp: 20
+  hp: 500
+  speed: 6
+  exp: 75
   crHp: Infinity
   crSpeed: 0
-  crDef: 0
   crExp: 0
   animator: {fileID: 9100000, guid: 00b89d81ab2f05d45b9873f7cfaafd7e, type: 2}

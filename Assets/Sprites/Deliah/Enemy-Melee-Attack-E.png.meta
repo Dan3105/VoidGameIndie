@@ -643,7 +643,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Enemy-Melee-Attack-E_15: -2059716880
-      Enemy-Melee-Attack-E_9: -1301651001
+      Enemy-Melee-Attack-E_3: -423776728
       Enemy-Melee-Attack-E_1: 1185660456
       Enemy-Melee-Attack-E_14: 791962730
       Enemy-Melee-Attack-E_21: -1754952191
@@ -663,9 +663,9 @@ TextureImporter:
       Enemy-Melee-Attack-E_23: -24801036
       Enemy-Melee-Attack-E_20: 1693101057
       Enemy-Melee-Attack-E_6: 731681815
-      Enemy-Melee-Attack-E_0: 1413976564
       Enemy-Melee-Attack-E_16: -1129494119
-      Enemy-Melee-Attack-E_3: -423776728
+      Enemy-Melee-Attack-E_0: 1413976564
+      Enemy-Melee-Attack-E_9: -1301651001
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

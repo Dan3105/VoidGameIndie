@@ -14,10 +14,16 @@ public class AIEnemy : Characteristic
 
     [Header("Animation")]
     public Animator animatorEnemy;
-
+    [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] GameObject boomEffect;
+    Material enemyMaterial;
     protected override void Start()
     {
         base.Start();
+        boomEffect.SetActive(false);
+        enemyMaterial = spriteRenderer.material;
+        enemyMaterial.SetFloat("_FadeValue", 1f);
+        Debug.Log("<color = blue>" + enemyMaterial.GetFloat("_FadeValue"));
         //set ai parameter
         destinationSetter.target = GameManager.Instance.playerStats.transform;
         aiPath.maxSpeed = stats.speed;
@@ -26,9 +32,6 @@ public class AIEnemy : Characteristic
         else
             aiPath.endReachedDistance = weapon.stats.rangeDetect * 2 / 3;
 
-
-        //set stats to enemy
-        crHp = stats.hp + 2f * GameManager.Instance.currentLevel;
         
         //update stats for weapon
         weapon.stats.UpdateStats(GameManager.Instance.currentLevel);
@@ -40,17 +43,49 @@ public class AIEnemy : Characteristic
 
     private void Update()
     {
-        animatorEnemy.SetFloat("Horizontal", weapon.dir.x);
-        animatorEnemy.SetFloat("Vertical", weapon.dir.y);
+
+        if(GameManager.Instance.playerStats.crHp >= 0 && crHp > 0)
+        {
+            Vector2 dir = destinationSetter.target.position - transform.position;
+            animatorEnemy.SetFloat("Horizontal", dir.x);
+            animatorEnemy.SetFloat("Vertical", dir.y);
+        }
+
+        if(crHp <= 0)
+        {
+            PlayDeath();
+            if (enemyMaterial.GetFloat("_FadeValue") > 0)
+                enemyMaterial.SetFloat("_FadeValue", enemyMaterial.GetFloat("_FadeValue") - Time.deltaTime);
+            else
+            {
+                
+                boomEffect.SetActive(true);
+                StartCoroutine("Blooming");
+            }
+               
+        }
         
     }
 
     private void FixedUpdate()
     {
-        //cooldown attack for weapon
-        weapon.cdCall -= Time.deltaTime;
-        weapon.DetectRange();
-        
+        if (GameManager.Instance.playerStats.crHp > 0 && crHp > 0)
+        {
+            //cooldown attack for weapon
+            weapon.cdCall -= Time.deltaTime;
+            weapon.DetectRange();
+        }
     }
 
+    public void AttackPlayer()
+    {
+        weapon.Attacking();
+    }
+
+    IEnumerable Blooming()
+    {
+
+        yield return new WaitForSeconds(0.4f);
+        Destroy(this.gameObject);
+    }
 }

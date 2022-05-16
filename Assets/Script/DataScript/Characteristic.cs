@@ -11,11 +11,12 @@ public class Characteristic : MonoBehaviour
     [Header("Character Parameters")]
     public CharacterStats stats;
     public float crHp;
-    public bool isAlive;
+
     virtual protected void Start()
     {
+        stats.UpdateStats(GameManager.Instance.currentLevel);
         crHp = stats.crHp;
-        isAlive = true;
+
     }
     public float AutoDetect(Collider2D character)
     {
@@ -25,13 +26,14 @@ public class Characteristic : MonoBehaviour
     //
     public void PlayDeath()
     {
-        isAlive = false;
+
         rg2d.Sleep();
         if (this.gameObject.tag == "Enemy")
         {
             GameManager.Instance.spawnsPerRound--;
-            Destroy(this.gameObject);
+            
             GameManager.Instance.AddExp(stats.exp);
+            
         }
             
     }
@@ -51,10 +53,4 @@ public class Characteristic : MonoBehaviour
             PlayDeath();
     }
 
-    public void RotatePlayer(bool isRight)
-    {
-        int dir = isRight ? 1 : -1;
-        transform.localScale = new Vector2(dir * Mathf.Abs(transform.localScale.x), transform.localScale.y);
-        
-    }
 }

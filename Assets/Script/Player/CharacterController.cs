@@ -56,7 +56,7 @@ public class CharacterController : Characteristic
     private void FixedUpdate()
     {
         
-        if (isAlive)
+        if (crHp >= 0)
         {
             if (joystickController.isDash)
             {

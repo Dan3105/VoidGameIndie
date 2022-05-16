@@ -13,7 +13,7 @@ public class WeaponStats : ScriptableObject {
 
     public void UpdateStats(int level)
     {
-        currentDmg = dmgAtk * 1.5f * level;
-        currentCD = cdAtk - 0.015f * level;
+        currentDmg = dmgAtk * (1 + level) / 2;
+        currentCD = cdAtk - 0.02f * level;
     }
 }

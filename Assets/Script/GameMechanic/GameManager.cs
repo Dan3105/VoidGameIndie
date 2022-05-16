@@ -97,7 +97,7 @@ public class GameManager : SingletonTemplate<GameManager>
         {
             currentLevel++;
             weapon.stats.UpdateStats(currentLevel);
-            nextExperience = currentLevel * 100 * 1.25f;
+            nextExperience = 500 * (currentLevel * currentLevel) - (500 * currentLevel);
             experience = nextExperience - experience;
            
         }

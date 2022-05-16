@@ -42,8 +42,7 @@ public class SkillWeapon : MonoBehaviour
                 float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
                 transform.parent.transform.localRotation = Quaternion.Euler(0, 0, angle);
-              
-
+                           
                 if (cdCall < 0)
                 {
                     if (LayerMask.LayerToName((int)Mathf.Log(whoWasAttacked, 2)) == "Enemy")
@@ -52,6 +51,8 @@ public class SkillWeapon : MonoBehaviour
                         animator.SetTrigger("Attack");
                     cdCall = stats.cdAtk;
                 }
+
+
             }
         }
         
