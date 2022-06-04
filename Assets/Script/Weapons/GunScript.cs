@@ -19,7 +19,10 @@ public class GunScript : SkillWeapon
 
     public override void Attacking()
     {
-        
+        var temp = SoundManager.Instance.sounds["Projectile"];
+
+        SoundManager.Instance.source.PlayOneShot(temp);
+
         var pj = Instantiate(projectile, transform.position, transform.rotation);
         
         int tagName = (int)Mathf.Log(whoWasAttacked, 2);

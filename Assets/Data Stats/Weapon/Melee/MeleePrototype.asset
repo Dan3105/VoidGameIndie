@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73f92552bfc3644faa13ba89f35ccba, type: 3}
   m_Name: MeleePrototype
   m_EditorClassIdentifier: 
-  dmgAtk: 85
+  dmgAtk: 600
   cdAtk: 1
   rangeDetect: 3.38
-  currentDmg: 22.5
-  currentCD: 0.985
+  currentDmg: 700
+  currentCD: 1

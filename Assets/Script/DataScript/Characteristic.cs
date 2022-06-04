@@ -26,31 +26,33 @@ public class Characteristic : MonoBehaviour
     //
     public void PlayDeath()
     {
-
-        rg2d.Sleep();
-        if (this.gameObject.tag == "Enemy")
+        
+        if (this.gameObject.tag == "Enemy" )
         {
-            GameManager.Instance.spawnsPerRound--;
-            
             GameManager.Instance.AddExp(stats.exp);
-            
-        }
-            
+            GameManager.Instance.trackingEnemies--;
+            Destroy(this.gameObject);
+        }     
     }
 
-    public void TakeDmg(float dmg)
+    public virtual void TakeDmg(float dmg)
     {
+        
         crHp -= dmg;
         if(this.name == "Player")
         {
             float percent = UIManager.Instance.CalPercentBar(crHp, stats.crHp);
             UIManager.Instance.UpdateBar(percent, UIManager.Instance.hpBar);
+            if(crHp <= 0)
+            {
+                GameManager.Instance.endScene.SetActive(true);
+                Time.timeScale = 0f;
+            }
         }
         
         
-        Debug.Log(gameObject.name + " hp: " + crHp);
-        if (crHp <= 0)
-            PlayDeath();
+        //Debug.Log(gameObject.name + " hp: " + crHp);
+            
     }
 
 }

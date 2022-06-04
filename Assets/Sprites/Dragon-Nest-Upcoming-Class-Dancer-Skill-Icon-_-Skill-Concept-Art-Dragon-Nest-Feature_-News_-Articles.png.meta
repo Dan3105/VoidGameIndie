@@ -1,0 +1,2103 @@
+fileFormatVersion: 2
+guid: cf891793053a6de4ea4c6fea23ce8b63
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 425
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785ea810ce3ee1f4fb3169c4812e6d32
+      internalID: -2141961988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242abe3cd48f2e1488314b90d98a5dc8
+      internalID: 890418906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6a2c406d1f9e144b5ac475a4ef2b9f
+      internalID: 472129266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df28c7b28207b8b4c82924f17843e827
+      internalID: -1534831110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832d8971f4d166846b48fb5f0638422d
+      internalID: 152448281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e2bbce8ccebec49ba762d7348d091c
+      internalID: -1567942736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ec03a9ff35405459a39d4e0525be43
+      internalID: -2028442069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53147bea3b7a724f83375cb36c33c19
+      internalID: -1398802069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14174d75a2234594fb721916f7ca1195
+      internalID: 1483428555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 426
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431bee6b834b0f348bbe2edac5fa337a
+      internalID: -1307315176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 376
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeab6fe88ca97744eb8a306500505dba
+      internalID: -332049256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7e3f818ca55d44787991af188f03a5
+      internalID: -1913061172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8e941f4b398304dbbcc61742e6bec6
+      internalID: -1056899964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced279c47cbd9634490e2420fcb5e6fa
+      internalID: 130939808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200efa46fba740940bfde75608411b6c
+      internalID: -2066462691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71106e23f699f8d478f9ca3b24063b60
+      internalID: -1009077995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24af53d679c92542830f03b1610354e
+      internalID: 924036571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2df232b8a59ab7479a8e0b927259fd5
+      internalID: 479421870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc545121ace1ae44fb587ee1db3c2c71
+      internalID: -200665456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 376
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff9a002f2c273a479bc4ec7916dd64d
+      internalID: -1248055550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55cb835fc7acae4191252c95c85cb98
+      internalID: 2140632785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b9ebeec85ae344a95bbd09be4c85d0
+      internalID: -1011099376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ab7477f1953b24497ad080bbfdce20
+      internalID: -457930520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a1459ba7046494ab0315bb0a327504
+      internalID: 937446336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0099bbbf7d7dc478f565cd2277a816
+      internalID: 2057742112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb159ed037aa87a4a877c03b8f612633
+      internalID: 1803804858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff6447405869ad46829dc97c345b4ea
+      internalID: -438749293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_27
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862da23ba0f2f0340b69119a680332fb
+      internalID: -1314302364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d082af0c854d0d047b1450d36196e17c
+      internalID: 457055508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_29
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1051a1e5c10e6ff4e9fbc1e4ae345b45
+      internalID: 191937293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f387f0b62dfdb44db43bdb3664f3dad
+      internalID: 1584892203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ff442a391c37a429674bea47bde82c
+      internalID: -676976070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c77f700e68fc8947a232d945c74536a
+      internalID: -1803379045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_33
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03fc8597ec557b4baf9bcff1e50b319
+      internalID: -1369773725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d04d094adba344d8593351b58fd0f1
+      internalID: -903874802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27e6234fd1a5af489226b96c260958e
+      internalID: 964721444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebe86d7f71fbd542b7668ea57c135de
+      internalID: 177815589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_37
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974afe5760b20f149801d6fefa7fbc13
+      internalID: -358166695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_38
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0862aa2bb46610e4e80390f5a490469f
+      internalID: -949214841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 276
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a592462742d92143a0ceb77a74797ee
+      internalID: 1173114685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888a14db66f41ef428f26a57971fca13
+      internalID: 1807843421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f136cb62b8ae08e4984af52640e36822
+      internalID: -1643514375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc99d45a7cfb7248b705d13065c8701
+      internalID: 1565099194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_43
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d781999dc3970b448a7dd10ce4e44daf
+      internalID: 982595131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adac85b79f566a40b572b1062cc2f69
+      internalID: -1592850355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_45
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79488459b03247444a724a5e2bc806a5
+      internalID: 178750342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac109d463bd65742bf91d7121c030ae
+      internalID: 1328523669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_47
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cad154ff77b24148b87a63f885b2076
+      internalID: 923781044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_48
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a402215d47367fb4e9f33b2ddeb5c951
+      internalID: -1782441011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 226
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91a04f469a17424e8dfc233fa40a3b3
+      internalID: 501627683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e95393fe0ba79479a169904ff89ec2
+      internalID: 1406504111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eee19bc53fb6441b6b3ec1b0908a6a
+      internalID: 1200697308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5888b98d009965a4b826cb83e0825934
+      internalID: -1397496448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0da4af2c8ccecd49b0d53feca941abf
+      internalID: 459776739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccc0e4eeadf5a54da976efc8df15443
+      internalID: 1319292131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_55
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ecd46121897794285e9f792de55066
+      internalID: 1171374106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_56
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8943a5be8df067043a4dda556316cba3
+      internalID: 1747404497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_57
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6bf2f170391e54aa466d6a4e414aee
+      internalID: 1869278502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_58
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e36a1b47feceaa48a96783baa7d5d77
+      internalID: -1944358429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_59
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 176
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478742bc5daa83546961b58242ee8482
+      internalID: -1566992949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a8e42dec63d1c4aa60f4cc0544060e
+      internalID: 912396029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_61
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e719ec0e82b790849a633964116b2a0d
+      internalID: 487224898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5bee5760f206b4bab440c72bf53d35
+      internalID: 840266066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_63
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e66e56701f40a4bb241f4ae0d76567
+      internalID: 549395934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_64
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07827242c97e5ce4b9998c0c0f108f9f
+      internalID: 1843334155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_65
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d89c420f1eb7e45a4c59d69f0dcc16
+      internalID: -1488824292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_66
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c75b397d5659443a494663cf0a7a53
+      internalID: 506304053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_67
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796c4257631afea4b90ab43e12746ff8
+      internalID: 1498428379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_68
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c9a972ea4df55428158b6b5a782004
+      internalID: 1962900970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_69
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 126
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602462ab65cb97d478c885bcfced8c2f
+      internalID: -886058244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91537b6b83964e74fb1527bc6e0cc2ab
+      internalID: -774105272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_71
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51667f81e0300f478aa01c1835a4255
+      internalID: 1257687086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_72
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc714130f87b68a48be9256d4476a9e8
+      internalID: 1080030599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_73
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c81456bc52af1841895d258465fbab4
+      internalID: -1714484682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_74
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992337f1d8955af4890b1156573e9280
+      internalID: 1296760709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_75
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d81ac8173b6f974faf4c57cf961d5fe
+      internalID: -1219402440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_76
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39140fe657c95464682566e8fda02afb
+      internalID: -641983309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_77
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb63abdd1e58c24c8013e39d66f7073
+      internalID: -17427552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_78
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcd42218e7c30044b497498772a04d0
+      internalID: -1092476960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_79
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080a2388547f7d44395373f8a25b17e9
+      internalID: -1330597952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a123aeddf43da04ca4a0be76795f3f1
+      internalID: 1544762217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_81
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00b63133c2787b429f7c25ca9d1bb04
+      internalID: 2063851120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_82
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f375f19b6a739a478867882db89e74b
+      internalID: 821895711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_83
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca72cd2baf306624d849ec262c503e69
+      internalID: 942006117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_84
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3650e6129d2c5ab4cb615adac9720cd5
+      internalID: 1019885486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_85
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a5d6715135a464bb3e973e9869a549
+      internalID: -1721735506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_86
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67250203d666934f8d4ccad3053c599
+      internalID: -61738704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_87
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b054e8689263740b60d1091d519eb8
+      internalID: -1802641063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_88
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab8c1ae3ce43f6429e850c4c893978c
+      internalID: 1527041500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_89
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b0db5ed275934ba889042962811e8
+      internalID: 169398593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_40: 1807843421
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_48: -1782441011
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_24: 2057742112
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_53: 459776739
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_84: 1019885486
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_38: -949214841
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_0: -2141961988
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_67: 1498428379
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_56: 1747404497
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_88: 1527041500
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_28: 457055508
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_14: -2066462691
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_89: 169398593
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_36: 177815589
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_13: 130939808
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_80: 1544762217
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_81: 2063851120
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_5: -1567942736
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_26: -438749293
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_45: 178750342
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_32: -1803379045
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_46: 1328523669
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_47: 923781044
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_60: 912396029
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_52: -1397496448
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_22: -457930520
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_73: -1714484682
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_7: -1398802069
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_57: 1869278502
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_72: 1080030599
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_44: -1592850355
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_77: -17427552
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_54: 1319292131
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_10: -332049256
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_74: 1296760709
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_59: -1566992949
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_6: -2028442069
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_16: 924036571
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_25: 1803804858
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_18: -200665456
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_39: 1173114685
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_20: 2140632785
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_30: 1584892203
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_65: -1488824292
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_71: 1257687086
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_31: -676976070
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_37: -358166695
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_33: -1369773725
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_83: 942006117
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_27: -1314302364
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_12: -1056899964
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_41: -1643514375
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_82: 821895711
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_66: 506304053
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_1: 890418906
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_34: -903874802
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_2: 472129266
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_19: -1248055550
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_85: -1721735506
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_58: -1944358429
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_64: 1843334155
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_75: -1219402440
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_68: 1962900970
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_17: 479421870
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_87: -1802641063
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_15: -1009077995
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_11: -1913061172
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_8: 1483428555
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_62: 840266066
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_4: 152448281
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_76: -641983309
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_79: -1330597952
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_49: 501627683
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_21: -1011099376
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_43: 982595131
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_70: -774105272
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_50: 1406504111
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_29: 191937293
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_86: -61738704
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_78: -1092476960
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_42: 1565099194
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_55: 1171374106
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_61: 487224898
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_9: -1307315176
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_23: 937446336
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_51: 1200697308
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_63: 549395934
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_69: -886058244
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_3: -1534831110
+      Dragon-Nest-Upcoming-Class-Dancer-Skill-Icon-_-Skill-Concept-Art-Dragon-Nest-Feature_-News_-Articles_35: 964721444
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

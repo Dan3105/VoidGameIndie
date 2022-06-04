@@ -6,7 +6,7 @@ public class Projectile : MonoBehaviour
 {
     public WeaponStats stats;
     public Rigidbody2D rg2d;
-    private void OnTriggerEnter2D(Collider2D collision)
+    public virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == this.tag && collision.gameObject.tag == "Enemy")
         {
@@ -16,10 +16,11 @@ public class Projectile : MonoBehaviour
         }
         else if (collision.gameObject.tag == this.tag && collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<CharacterController>().TakeDmg(stats.dmgAtk);
+            collision.gameObject.GetComponent<MainCharacterController>().TakeDmg(stats.dmgAtk);
             Destroy(this.gameObject);
         }
-        else if(collision.gameObject.tag == "Boundary")
+
+        if(collision.gameObject.tag == "Boundary")
             Destroy(this.gameObject);
             
     }

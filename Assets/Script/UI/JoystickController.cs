@@ -17,7 +17,7 @@ public class JoystickController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        radiusJoystick = joystickBG.GetComponent<RectTransform>().sizeDelta.y / 3;
+        radiusJoystick = joystickBG.GetComponent<RectTransform>().sizeDelta.y / 5;
         joystick.SetActive(false);
         joystickBG.SetActive(false);
         //dash Detection

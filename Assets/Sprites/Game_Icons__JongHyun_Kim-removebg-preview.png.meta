@@ -1,0 +1,1135 @@
+fileFormatVersion: 2
+guid: a19b4578d20f7344ea401899404193b3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 2
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 590
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29d7083188529142ae30b2398ddf9ef
+      internalID: -1133055882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 591
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc8f8738b798194eb88bc9535b7743a
+      internalID: 929529025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 591
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9a0c85c5925594599a958f1ffab14f
+      internalID: -276259311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 591
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c28d70c776eee84586f9cb813c79d35
+      internalID: 357058528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 591
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a008e516ec0323843a082013381c39d8
+      internalID: 772345200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 526
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2249cc0acfff9946927cdfff5aa0dd0
+      internalID: -574048873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 526
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d335422994794293d4ccfe310819a
+      internalID: 1687297489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 526
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a096512b6c60f48adc6af852004acd
+      internalID: 691654940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 526
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f0b04d48d679141aade1fc63afd070
+      internalID: 718819171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 526
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629c12f94abff6849987f9d65ca2668f
+      internalID: 267741658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 461
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1131ddf7e5227e944843bc3a3843ea2c
+      internalID: -1522881084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 461
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17678d48b97fbdf4bb470b1bcc9c43e9
+      internalID: -971813731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 461
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e033366217f53bf4182381bdd32c629a
+      internalID: 1440599919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 461
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b61a2c080c716458ebe3ca107af02d
+      internalID: 1918905256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 461
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d8dc0af96d0c44998b19a3b81e9214
+      internalID: 1141217670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 395
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd62ee5fda9c970428ccadd2f378cb58
+      internalID: -1673087401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 395
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439afd7234515654099001b8fbf1db29
+      internalID: 660407184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 396
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bf4e2c77dd5524f917d2dacc4bb16d
+      internalID: -368036786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 395
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db421393f925d144a8627eff39536da
+      internalID: -1487256263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 395
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1defaafab4a2086409b9224e190dd27e
+      internalID: 255006183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 331
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2197d23bb559c2043b3b13d86da444c8
+      internalID: -1169029728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 330
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e283cbd003a504b8922c7a33eecdaa
+      internalID: 700200820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 331
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978f84b0b7f9fe247a8e688a9fb90f60
+      internalID: -1433824492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 330
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859bf69cbbd4e7f4984e5537f8711e5e
+      internalID: -1831828327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 331
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0a7dc6295e12d44bb6a04f2018e35f
+      internalID: 1505628724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 265
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eadfe45139b24438c4c5fb7d905ed9
+      internalID: 1842483856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 265
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61fb30095dd2554c9a57f216702c711
+      internalID: 305671328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 265
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef38c11567c3584e8c81154d0b401f3
+      internalID: 287334891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 265
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570a721505f1cf4fa8b4411756a3c55
+      internalID: -297431114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 265
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3699f0108c875bd4384fd7828d7baaff
+      internalID: 1802820568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 200
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5615e2e167d47143944be4b261b8b36
+      internalID: -1894191091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 200
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca3f1d8a40c4db4a87eb7c9f305ddc1
+      internalID: -2066749253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7703b8e72b78fdb4e99769291dd53978
+      internalID: 1982792430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d2c65535c36cc4ba52cbf3f6f21491
+      internalID: -708009763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 200
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f215af31a8de98e42b5e9bbc4b85aae8
+      internalID: 1575426575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 135
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb582e11dacae24d9f30ab17b199a0f
+      internalID: -1344952045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 135
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3013dee26d33c4aa030b816d558819
+      internalID: -1753892537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 135
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21144b0c8396c34db8b4fbd7f9bc781
+      internalID: 741574814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 135
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479423b64ef94ae479f68d2d7b12cdfc
+      internalID: -1421516900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 135
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02b140bbcd734843bdbd371e0bd020b
+      internalID: -549487424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 70
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b282a7b4c564e43922e4b5894fbd74
+      internalID: -794715798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 70
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9782740a5597f3244a8612635ca29d81
+      internalID: -1935003327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 70
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48ec17bf0a32fa489511ce1ec628c83
+      internalID: -2039022864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 70
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d98c8b36de2f2c4d8e08d703d118a1c
+      internalID: 978535561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 70
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f1a00edc79c534988ac751a205ef80
+      internalID: 1025673878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Icons__JongHyun_Kim-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 17
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03fe1222e43c484ab4e3aa0e1fbc892
+      internalID: -1952111988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Game_Icons__JongHyun_Kim-removebg-preview_16: 660407184
+      Game_Icons__JongHyun_Kim-removebg-preview_11: -971813731
+      Game_Icons__JongHyun_Kim-removebg-preview_40: -794715798
+      Game_Icons__JongHyun_Kim-removebg-preview_34: 1575426575
+      Game_Icons__JongHyun_Kim-removebg-preview_6: 1687297489
+      Game_Icons__JongHyun_Kim-removebg-preview_17: -368036786
+      Game_Icons__JongHyun_Kim-removebg-preview_13: 1918905256
+      Game_Icons__JongHyun_Kim-removebg-preview_27: 287334891
+      Game_Icons__JongHyun_Kim-removebg-preview_15: -1673087401
+      Game_Icons__JongHyun_Kim-removebg-preview_25: 1842483856
+      Game_Icons__JongHyun_Kim-removebg-preview_38: -1421516900
+      Game_Icons__JongHyun_Kim-removebg-preview_9: 267741658
+      Game_Icons__JongHyun_Kim-removebg-preview_30: -1894191091
+      Game_Icons__JongHyun_Kim-removebg-preview_0: -1133055882
+      Game_Icons__JongHyun_Kim-removebg-preview_23: -1831828327
+      Game_Icons__JongHyun_Kim-removebg-preview_28: -297431114
+      Game_Icons__JongHyun_Kim-removebg-preview_45: -1952111988
+      Game_Icons__JongHyun_Kim-removebg-preview_43: 978535561
+      Game_Icons__JongHyun_Kim-removebg-preview_22: -1433824492
+      Game_Icons__JongHyun_Kim-removebg-preview_44: 1025673878
+      Game_Icons__JongHyun_Kim-removebg-preview_5: -574048873
+      Game_Icons__JongHyun_Kim-removebg-preview_7: 691654940
+      Game_Icons__JongHyun_Kim-removebg-preview_33: -708009763
+      Game_Icons__JongHyun_Kim-removebg-preview_36: -1753892537
+      Game_Icons__JongHyun_Kim-removebg-preview_3: 357058528
+      Game_Icons__JongHyun_Kim-removebg-preview_42: -2039022864
+      Game_Icons__JongHyun_Kim-removebg-preview_10: -1522881084
+      Game_Icons__JongHyun_Kim-removebg-preview_4: 772345200
+      Game_Icons__JongHyun_Kim-removebg-preview_37: 741574814
+      Game_Icons__JongHyun_Kim-removebg-preview_39: -549487424
+      Game_Icons__JongHyun_Kim-removebg-preview_19: 255006183
+      Game_Icons__JongHyun_Kim-removebg-preview_1: 929529025
+      Game_Icons__JongHyun_Kim-removebg-preview_32: 1982792430
+      Game_Icons__JongHyun_Kim-removebg-preview_26: 305671328
+      Game_Icons__JongHyun_Kim-removebg-preview_2: -276259311
+      Game_Icons__JongHyun_Kim-removebg-preview_12: 1440599919
+      Game_Icons__JongHyun_Kim-removebg-preview_14: 1141217670
+      Game_Icons__JongHyun_Kim-removebg-preview_8: 718819171
+      Game_Icons__JongHyun_Kim-removebg-preview_29: 1802820568
+      Game_Icons__JongHyun_Kim-removebg-preview_24: 1505628724
+      Game_Icons__JongHyun_Kim-removebg-preview_18: -1487256263
+      Game_Icons__JongHyun_Kim-removebg-preview_20: -1169029728
+      Game_Icons__JongHyun_Kim-removebg-preview_35: -1344952045
+      Game_Icons__JongHyun_Kim-removebg-preview_41: -1935003327
+      Game_Icons__JongHyun_Kim-removebg-preview_31: -2066749253
+      Game_Icons__JongHyun_Kim-removebg-preview_21: 700200820
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

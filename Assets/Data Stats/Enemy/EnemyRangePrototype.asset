@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4217b45bee39c7544ae804932d7bb5ca, type: 3}
   m_Name: EnemyRangePrototype
   m_EditorClassIdentifier: 
-  hp: 300
-  speed: 5
-  exp: 50
-  crHp: Infinity
-  crSpeed: 0
-  crExp: 0
+  hp: 350
+  speed: 4
+  exp: 15
+  crHp: 1750
+  crSpeed: 4
+  crExp: 350
   animator: {fileID: 9100000, guid: 1df63636965e22a48a3dc882c33a6374, type: 2}

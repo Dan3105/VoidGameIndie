@@ -24,12 +24,17 @@ public class BladeScript : SkillWeapon
 
     public override void Attacking()
     {
+        var temp = SoundManager.Instance.sounds["Slash"];
+
+        SoundManager.Instance.source.PlayOneShot(temp);
+
         Vector2 position = sizePos + (Vector2)transform.position;
         Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(position, size, 0, whoWasAttacked);
+        
         for (int i = 0; i < collider2Ds.Length; i++)
         {
             //enemy take damamage;
-            Debug.Log(collider2Ds[i].name + "Take dmg");
+            //Debug.Log(collider2Ds[i].name + "Take dmg");
             collider2Ds[i].gameObject.GetComponent<Characteristic>().TakeDmg(stats.dmgAtk);
         }
     }

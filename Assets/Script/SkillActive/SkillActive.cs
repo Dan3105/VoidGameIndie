@@ -1,18 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class SkillActive : MonoBehaviour
 {
-    public CharacterController character;
-    public void PlayAttack()
-    {
-        //if (character.weapon.dir.magnitude > 0)
-        //{
-        character.animator.SetFloat("AtkHorizontal", character.weapon.dir.x);
-        character.animator.SetFloat("AtkVertical", character.weapon.dir.y);
-        character.animator.SetTrigger("Attack");
-        //}
+    public Button btn;
+    public TextMeshProUGUI text;
+    public AbilitiesStats ability;
 
+    public void ShowText()
+    {
+        text.text = ability.skillDes;
+    }
+
+    public void HideText()
+    {
+        text.text = "";
+    }
+
+    public void SetSkill(AbilitiesStats newAbility)
+    {
+        ability = newAbility;
+        btn.image.sprite = ability.skillImg;
+       
+    }
+
+    public void ActiveSkill()
+    {
+        if (!ability)
+            return;
+        LevelManager.Instance.checkUsed[ability] = true;
+        ability.SkillActive();
+        
+        Time.timeScale = 1f;
+        HideText();
     }
 }

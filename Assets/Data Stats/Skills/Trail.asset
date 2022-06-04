@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22a7a02aad59ca4c8175d2a808921a4, type: 3}
+  m_Name: Trail
+  m_EditorClassIdentifier: 
+  skillDes: Whirl Ball Appear around you
+  skillImg: {fileID: 1584892203, guid: cf891793053a6de4ea4c6fea23ce8b63, type: 3}
+  whoIsEnemy:
+    serializedVersion: 2
+    m_Bits: 8
+  dmg: 0
+  coolDown: 0
+  listSkill: {fileID: 8513985519737992436, guid: 3c880ab4e0f833e49ba03cf32c6ae25f, type: 3}

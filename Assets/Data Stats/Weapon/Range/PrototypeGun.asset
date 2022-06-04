@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73f92552bfc3644faa13ba89f35ccba, type: 3}
   m_Name: PrototypeGun
   m_EditorClassIdentifier: 
-  dmgAtk: 70
+  dmgAtk: 400
   cdAtk: 0.95
   rangeDetect: 8.5
-  currentDmg: 22.5
-  currentCD: 0.985
+  currentDmg: 420
+  currentCD: 0.95

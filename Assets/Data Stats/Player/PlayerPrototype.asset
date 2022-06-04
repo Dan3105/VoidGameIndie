@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4217b45bee39c7544ae804932d7bb5ca, type: 3}
   m_Name: PlayerPrototype
   m_EditorClassIdentifier: 
-  hp: Infinity
+  hp: 3000
   speed: 7
   exp: -Infinity
-  crHp: Infinity
-  crSpeed: 7.14
-  crExp: 0
+  crHp: 15000
+  crSpeed: 7
+  crExp: 350
   animator: {fileID: 9100000, guid: e5dd885828944a04ea3829604ce72199, type: 2}

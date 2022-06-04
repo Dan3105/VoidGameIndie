@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 500
   speed: 6
-  exp: 75
-  crHp: Infinity
-  crSpeed: 0
-  crExp: 0
+  exp: 20
+  crHp: 2500
+  crSpeed: 6
+  crExp: 350
   animator: {fileID: 9100000, guid: 00b89d81ab2f05d45b9873f7cfaafd7e, type: 2}

@@ -18,11 +18,35 @@ public class CharacterStats : ScriptableObject
 
     public RuntimeAnimatorController animator;
     
+    public void SetStats(bool isPlayer)
+    {
+        crHp = hp;
+        if(!isPlayer)
+            crSpeed = Random.Range(speed, speed - 2);
+        crSpeed = speed;
+        crExp = exp;
+    }
 
     public void UpdateStats(int level)
     {
         crHp = ((1 + level * 2) / 3) * hp;
-        crSpeed = 0.04f * Mathf.Pow(level, 3) + 0.1f * Mathf.Pow(level, 2) + speed;
-        crExp = (crExp + 50) * level * (level - 1) ;
+        
+        crExp = 50 * level ;
+    }
+
+    public void UpgradeHp(float percent)
+    {
+        crHp += percent * crHp;
+    }
+
+    public void UpgradeSpeed(float percent)
+    {
+        crHp += percent * crHp;
+    }
+
+
+    public float percentBar(float runTime)
+    {
+        return runTime / crHp;
     }
 }

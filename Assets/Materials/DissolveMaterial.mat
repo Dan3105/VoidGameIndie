@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: DissolveMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 23d222d6c00de304fa97adb2ac1cbd55, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 0
@@ -17,6 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -40,11 +43,11 @@ Material:
     m_Floats:
     - _DissolveScale: -0.66
     - _DissolveValue: 40
-    - _FadeValue: 0.707
+    - _FadeValue: 1
     - _QueueControl: 0
     - _QueueOffset: -22
     m_Colors:
-    - _Color: {r: 2.6039217, g: 0.7634535, b: 2.0176985, a: 1}
+    - _Color: {r: 2.603922, g: 0.76345354, b: 2.0176988, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &5933578275725177158
 MonoBehaviour:
@@ -58,4 +61,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 6

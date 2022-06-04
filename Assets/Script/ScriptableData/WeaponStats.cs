@@ -11,9 +11,24 @@ public class WeaponStats : ScriptableObject {
     public float currentDmg;
     public float currentCD;
 
+    public void SetStats()
+    {
+        currentDmg = dmgAtk;
+        currentCD = cdAtk;
+    }
     public void UpdateStats(int level)
     {
         currentDmg = dmgAtk * (1 + level) / 2;
-        currentCD = cdAtk - 0.02f * level;
+      
+    }
+
+    public void SetDmg(float percent)
+    {
+        currentDmg += percent * currentDmg;
+    }
+
+    public void SetCD(float percent)
+    {
+        currentCD -= percent * currentCD;
     }
 }
